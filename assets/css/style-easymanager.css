@@ -1,0 +1,8 @@
+.table td, .table th {
+    font-size: 11px;
+}
+
+#divBestseller{
+    overflow: auto;
+    height: 295px;
+}
