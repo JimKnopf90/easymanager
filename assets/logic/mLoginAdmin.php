@@ -19,9 +19,9 @@ try {
     $count = $result->fetchColumn();
    
     if($count == 1) {
-        echo 'Login';
+
         $_SESSION["adminusername"] = $_POST['username'];
-         header("Location: ../sites/admin-mainpage.php"); 
+         header("Location: ../../index.php");
         
     } else {
         header("Location: ../sites/admin-failed-login.php"); 
@@ -34,5 +34,3 @@ try {
 
 unset($dbh); 
 
-
-?>

@@ -4,7 +4,38 @@
     <bookmark url="file://$PROJECT_DIR$/assets/logic/mUserDelete.php" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="" />
+    <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page-login.html" afterPath="$PROJECT_DIR$/admin-login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" afterPath="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-chartjs.html" afterPath="$PROJECT_DIR$/charts-chartjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-flot.html" afterPath="$PROJECT_DIR$/charts-flot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-peity.html" afterPath="$PROJECT_DIR$/charts-peity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font-themify.html" afterPath="$PROJECT_DIR$/font-themify.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms-advanced.html" afterPath="$PROJECT_DIR$/forms-advanced.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms-basic.html" afterPath="$PROJECT_DIR$/forms-basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps-gmap.html" afterPath="$PROJECT_DIR$/maps-gmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps-vector.html" afterPath="$PROJECT_DIR$/maps-vector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-register.html" afterPath="$PROJECT_DIR$/page-register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages-forget.html" afterPath="$PROJECT_DIR$/pages-forget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables-basic.html" afterPath="$PROJECT_DIR$/tables-basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables-data.html" afterPath="$PROJECT_DIR$/tables-data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-alerts.html" afterPath="$PROJECT_DIR$/ui-alerts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-badges.html" afterPath="$PROJECT_DIR$/ui-badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-buttons.html" afterPath="$PROJECT_DIR$/ui-buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-cards.html" afterPath="$PROJECT_DIR$/ui-cards.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-grids.html" afterPath="$PROJECT_DIR$/ui-grids.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-modals.html" afterPath="$PROJECT_DIR$/ui-modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-progressbar.html" afterPath="$PROJECT_DIR$/ui-progressbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-social-buttons.html" afterPath="$PROJECT_DIR$/ui-social-buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-switches.html" afterPath="$PROJECT_DIR$/ui-switches.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-tabs.html" afterPath="$PROJECT_DIR$/ui-tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-typgraphy.html" afterPath="$PROJECT_DIR$/ui-typgraphy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widgets.html" afterPath="$PROJECT_DIR$/widgets.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,112 +49,41 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="270" column="55" lean-forward="false" selection-start-line="270" selection-start-column="55" selection-end-line="270" selection-end-column="55" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/user.js">
+      <file leaf-file-name="admin-login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="39" column="173" lean-forward="false" selection-start-line="39" selection-start-column="173" selection-end-line="39" selection-end-column="173" />
+            <state relative-caret-position="867">
+              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mUserChange.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserChange.php">
+      <file leaf-file-name="mLoginAdmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mLoginAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="32" />
               <folding>
-                <marker date="1531814775131" expanded="true" signature="129:265" ph="UPDATE tUser... " />
+                <marker date="1531818850329" expanded="true" signature="164:258" ph="SELECT COUNT... tUser" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mLogin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mLogin.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <marker date="1524392409883" expanded="true" signature="164:242" ph="SELECT COUNT... tUser" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mUserSelect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserSelect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1531814668019" expanded="true" signature="143:242" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:261" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:262" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:266" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:267" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:271" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:277" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="279:383" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mUserCreate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserCreate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1531575612983" expanded="true" signature="227:482" ph="INSERT INTO tUser... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mUserDelete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserDelete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-              <folding>
-                <marker date="1531734674606" expanded="true" signature="156:211" ph="DELETE FROM " />
-                <marker date="1531734674606" expanded="true" signature="168:211" ph="INSERT INTO tUser... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10506">
-              <caret line="618" column="16" lean-forward="false" selection-start-line="618" selection-start-column="10" selection-end-line="618" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mUserLoad.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-              <folding>
-                <marker date="1531815110517" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
-                <marker date="1531815110517" expanded="true" signature="334:987" ph="..." />
-                <marker date="1531815110517" expanded="true" signature="347:987" ph="..." />
-                <marker date="1531815110517" expanded="true" signature="547:589" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -160,15 +120,17 @@
       <find>btnDeleteUser</find>
       <find>btnSaveEditUser</find>
       <find>edit</find>
-      <find>Creat</find>
       <find>Icons</find>
+      <find>Creat</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/charts-peity.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/user.html" />
         <option value="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" />
         <option value="$PROJECT_DIR$/tables-data.html" />
@@ -183,6 +145,11 @@
         <option value="$PROJECT_DIR$/assets/logic/mUserChange.php" />
         <option value="$PROJECT_DIR$/assets/js/user.js" />
         <option value="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
+        <option value="$PROJECT_DIR$/page-login.html" />
+        <option value="$PROJECT_DIR$/admin-login.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user.php" />
       </list>
     </option>
@@ -205,6 +172,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -261,24 +229,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,28 +342,28 @@
       <option name="presentableId" value="Default" />
       <updated>1531468013666</updated>
       <workItem from="1531468015220" duration="40897000" />
-      <workItem from="1531767583119" duration="4703000" />
+      <workItem from="1531767583119" duration="8834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45600000" />
+    <option name="totallyTimeSpent" value="49731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +374,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="mUserSelect.php">
@@ -533,6 +483,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,13 +491,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9329">
           <caret line="31" column="0" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="111" column="32" lean-forward="false" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -587,6 +532,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="56" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,13 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="330" column="34" lean-forward="true" selection-start-line="319" selection-start-column="28" selection-end-line="330" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10506">
-          <caret line="618" column="16" lean-forward="false" selection-start-line="618" selection-start-column="10" selection-end-line="618" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -637,54 +576,6 @@
             <marker date="1531317886057" expanded="true" signature="367:2341" ph="SELECT Tabel... kKategorie" />
             <marker date="1531317886057" expanded="true" signature="649:2070" ph="SELECT dbo.t... tkategorie" />
             <marker date="1531317886057" expanded="true" signature="1754:1976" ph="SELECT kKate... tkategorie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <marker date="1524392409883" expanded="true" signature="164:242" ph="SELECT COUNT... tUser" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserDelete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <marker date="1531734674606" expanded="true" signature="156:211" ph="DELETE FROM " />
-            <marker date="1531734674606" expanded="true" signature="168:211" ph="INSERT INTO tUser... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserCreate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1531575612983" expanded="true" signature="227:482" ph="INSERT INTO tUser... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserSelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1531814668019" expanded="true" signature="143:242" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:261" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:262" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:266" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:267" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:271" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="143:277" ph="SELECT usern... tUser" />
-            <marker date="1531814668019" expanded="true" signature="279:383" ph="..." />
           </folding>
         </state>
       </provider>
@@ -707,6 +598,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1524392409883" expanded="true" signature="164:242" ph="SELECT COUNT... tUser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1531814668019" expanded="true" signature="143:242" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:261" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:262" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:266" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:267" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:271" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="143:277" ph="SELECT usern... tUser" />
+            <marker date="1531814668019" expanded="true" signature="279:383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1531575612983" expanded="true" signature="227:482" ph="INSERT INTO tUser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <marker date="1531734674606" expanded="true" signature="156:211" ph="DELETE FROM " />
+            <marker date="1531734674606" expanded="true" signature="168:211" ph="INSERT INTO tUser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="618" column="16" lean-forward="false" selection-start-line="618" selection-start-column="10" selection-end-line="618" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -720,10 +667,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mLoginAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1531818850329" expanded="true" signature="164:258" ph="SELECT COUNT... tUser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="270" column="55" lean-forward="false" selection-start-line="270" selection-start-column="55" selection-end-line="270" selection-end-column="55" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
