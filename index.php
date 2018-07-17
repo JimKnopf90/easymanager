@@ -89,9 +89,9 @@ if(isset($_SESSION["adminusername"])) {
                     <h3 class="menu-title">Administration</h3><!-- /.menu-title -->
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>User-Verwaltung</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User-Verwaltung</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="user.php">Benutzer</a></li>
+                            <li><i class="menu-icon fa fa-user"></i><a href="user.php">Benutzer</a></li>
                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Berechtigungen</a></li>
                         </ul>
                     </li>

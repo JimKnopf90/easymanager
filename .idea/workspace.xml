@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page-login.html" afterPath="$PROJECT_DIR$/admin-login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" afterPath="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-chartjs.html" afterPath="$PROJECT_DIR$/charts-chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-flot.html" afterPath="$PROJECT_DIR$/charts-flot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-peity.html" afterPath="$PROJECT_DIR$/charts-peity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font-themify.html" afterPath="$PROJECT_DIR$/font-themify.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms-advanced.html" afterPath="$PROJECT_DIR$/forms-advanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms-basic.html" afterPath="$PROJECT_DIR$/forms-basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps-gmap.html" afterPath="$PROJECT_DIR$/maps-gmap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps-vector.html" afterPath="$PROJECT_DIR$/maps-vector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-register.html" afterPath="$PROJECT_DIR$/page-register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages-forget.html" afterPath="$PROJECT_DIR$/pages-forget.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables-basic.html" afterPath="$PROJECT_DIR$/tables-basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables-data.html" afterPath="$PROJECT_DIR$/tables-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-alerts.html" afterPath="$PROJECT_DIR$/ui-alerts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-badges.html" afterPath="$PROJECT_DIR$/ui-badges.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-buttons.html" afterPath="$PROJECT_DIR$/ui-buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-cards.html" afterPath="$PROJECT_DIR$/ui-cards.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-grids.html" afterPath="$PROJECT_DIR$/ui-grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-modals.html" afterPath="$PROJECT_DIR$/ui-modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-progressbar.html" afterPath="$PROJECT_DIR$/ui-progressbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-social-buttons.html" afterPath="$PROJECT_DIR$/ui-social-buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-switches.html" afterPath="$PROJECT_DIR$/ui-switches.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-tabs.html" afterPath="$PROJECT_DIR$/ui-tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui-typgraphy.html" afterPath="$PROJECT_DIR$/ui-typgraphy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widgets.html" afterPath="$PROJECT_DIR$/widgets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -78,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="215">
+              <caret line="91" column="158" lean-forward="false" selection-start-line="91" selection-start-column="158" selection-end-line="91" selection-end-column="158" />
               <folding />
             </state>
           </provider>
@@ -122,6 +94,7 @@
       <find>edit</find>
       <find>Icons</find>
       <find>Creat</find>
+      <find>user</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,8 +122,8 @@
         <option value="$PROJECT_DIR$/admin-login.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -342,15 +315,15 @@
       <option name="presentableId" value="Default" />
       <updated>1531468013666</updated>
       <workItem from="1531468015220" duration="40897000" />
-      <workItem from="1531767583119" duration="8834000" />
+      <workItem from="1531767583119" duration="9431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49731000" />
+    <option name="totallyTimeSpent" value="50328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -685,18 +658,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="91" column="158" lean-forward="false" selection-start-line="91" selection-start-column="158" selection-end-line="91" selection-end-column="158" />
           <folding />
         </state>
       </provider>
