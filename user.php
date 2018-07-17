@@ -12,7 +12,7 @@ if(isset($_SESSION["adminusername"])) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>easy Manager - Benutzer</title>
+    <title>easyManager - Benutzer</title>
     <meta name="description" content="easy Manager - Benutzer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

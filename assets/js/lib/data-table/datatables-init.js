@@ -5,9 +5,6 @@
     /*  Data Table
     -------------*/
 
-
-
-
     $('#bootstrap-data-table').DataTable({
         lengthMenu: [[10, 20, 50, -1], [10, 20, 50, "Alle"]],
         "oLanguage": {
@@ -19,10 +16,11 @@
             "sLengthMenu": "Zeige _MENU_ Datensätze an",
 			"sNext": "sdsd",
             "sInfo": "Datensatz _START_ von _END_ von insgesamt _TOTAL_",
-        }
+        },
+
+
 
     });
-
 
     $('#bootstrap-data-table-export').DataTable({
         dom: 'lBfrtip',
