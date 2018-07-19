@@ -15,3 +15,8 @@
     height: 300px;
     border: dashed darkgray 3px;
 }
+
+#btnUploadProfilpicture{
+    margin-top: 5px;
+    width: 300px;
+}

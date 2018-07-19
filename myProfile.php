@@ -358,6 +358,7 @@ if(isset($_SESSION["adminusername"])) {
                                 <div id="divProfilpicture">
                                     <img id="profilpicture" src="images/male.png">
                                 </div>
+                                <button type="button" id="btnUploadProfilpicture" class="btn btn-success btn-sm"><i class="fa fa-upload"></i>&nbsp; Success</button>
 
 
                             </div>

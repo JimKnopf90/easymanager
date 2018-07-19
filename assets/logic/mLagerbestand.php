@@ -30,10 +30,11 @@ WHERE        (dbo.tliefartikel.tLieferant_kLieferant = 34)";
 
 
 echo '<div class="card">';
-        echo '<div class="card-header">';
-            echo '<strong class="card-title">Lagerbestandsübersicht</strong>';
-        echo '</div>';
-    echo '<div class="card-body">';
+echo '<div class="card-header">';
+echo '<strong class="card-title">Lagerbestandsübersicht</strong>';
+echo '</div>';
+echo '<div class="card-body">';
+
 echo '<table id="bootstrap-data-table" class="table table-striped table-bordered">';
     echo '<thead>';
         echo '<tr>';
@@ -72,6 +73,9 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
     echo '</tbody>';
 echo '</table>';
 echo '</div>';
+echo '</div>';
+echo '</div>';
+
 echo '<span>Gesamtwarenwert: </span>' . number_format($gesamtWarenwert,2, ",", "." ) . " €" ;   
 
 
