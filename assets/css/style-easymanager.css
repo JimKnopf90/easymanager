@@ -6,3 +6,12 @@
     overflow: auto;
     height: 295px;
 }
+
+#divProfilpicture{
+    text-align: left;
+}
+
+#profilpicture{
+    height: 300px;
+    border: dashed darkgray 3px;
+}

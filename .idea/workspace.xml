@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style-easymanager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/logic/mBestSellingItems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProfile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js" afterPath="$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style-easymanager.css" afterPath="$PROJECT_DIR$/assets/css/style-easymanager.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mUserLoad.php" afterPath="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
     </list>
@@ -26,19 +25,21 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="453">
+              <caret line="231" column="113" lean-forward="false" selection-start-line="231" selection-start-column="113" selection-end-line="231" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-login.php">
+      <file leaf-file-name="forms-basic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms-basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="373" column="18" lean-forward="false" selection-start-line="373" selection-start-column="18" selection-end-line="583" selection-end-column="24" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="542" column="54" lean-forward="false" selection-start-line="542" selection-start-column="47" selection-end-line="542" selection-end-column="54" />
+              <caret line="234" column="117" lean-forward="true" selection-start-line="228" selection-start-column="30" selection-end-line="234" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -56,36 +57,17 @@
       <file leaf-file-name="style-easymanager.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style-easymanager.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mUserSelect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserSelect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <marker date="1531814668019" expanded="true" signature="143:242" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:261" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:262" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:266" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:267" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:271" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="143:277" ph="SELECT usern... tUser" />
-                <marker date="1531814668019" expanded="true" signature="279:383" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mBestSellingItems.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mBestSellingItems.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="425">
               <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <marker date="1531850785900" expanded="true" signature="138:608" ph="SELECT TOP(1... cArtNr" />
@@ -118,16 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datatables-init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,11 +110,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mUserLoad.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <marker date="1531851648286" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
+                <marker date="1531851648286" expanded="true" signature="334:952" ph="..." />
+                <marker date="1531851648286" expanded="true" signature="347:952" ph="..." />
+                <marker date="1531851648286" expanded="true" signature="534:576" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myProfile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myProfile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="354" column="74" lean-forward="false" selection-start-line="354" selection-start-column="74" selection-end-line="354" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tables-basic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables-basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="314" column="26" lean-forward="true" selection-start-line="285" selection-start-column="27" selection-end-line="314" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="291" column="50" lean-forward="true" selection-start-line="280" selection-start-column="19" selection-end-line="291" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -160,11 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>language-select dropdown</find>
-      <find>menu-title</find>
-      <find>dataTables_length</find>
-      <find>menu-icon fa fa-fort-awesome</find>
-      <find>next</find>
       <find>previo</find>
       <find>previous</find>
       <find>thead</find>
@@ -186,9 +178,15 @@
       <find>col-xl-3 col-lg-6</find>
       <find>bests</find>
       <find>bestse</find>
-      <find>jquer</find>
       <find>bestsel</find>
+      <find>succes</find>
+      <find>jquer</find>
+      <find>mein</find>
+      <find>dashboard</find>
+      <find>logou</find>
       <find>col-lg-6</find>
+      <find>Static</find>
+      <find>pic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,17 +207,19 @@
         <option value="$PROJECT_DIR$/assets/logic/mUserSelect.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserChange.php" />
         <option value="$PROJECT_DIR$/assets/js/user.js" />
-        <option value="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
         <option value="$PROJECT_DIR$/page-login.html" />
         <option value="$PROJECT_DIR$/admin-login.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
         <option value="$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js" />
-        <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/assets/css/style-easymanager.css" />
         <option value="$PROJECT_DIR$/assets/logic/mBestSellingItems.php" />
+        <option value="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
+        <option value="$PROJECT_DIR$/images/myProfile.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/user.php" />
+        <option value="$PROJECT_DIR$/assets/css/style-easymanager.css" />
+        <option value="$PROJECT_DIR$/myProfile.php" />
       </list>
     </option>
   </component>
@@ -279,83 +279,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,6 +298,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\easymanager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\easymanager\assets\logic" />
     </key>
@@ -470,15 +397,15 @@
       <option name="presentableId" value="Default" />
       <updated>1531468013666</updated>
       <workItem from="1531468015220" duration="40897000" />
-      <workItem from="1531767583119" duration="17726000" />
+      <workItem from="1531767583119" duration="25096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58623000" />
+    <option name="totallyTimeSpent" value="65993000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -588,10 +515,10 @@
         <state relative-caret-position="442">
           <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
-            <marker date="1531815110517" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
-            <marker date="1531815110517" expanded="true" signature="334:987" ph="..." />
-            <marker date="1531815110517" expanded="true" signature="347:987" ph="..." />
-            <marker date="1531815110517" expanded="true" signature="547:589" ph="..." />
+            <marker date="1531851648286" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
+            <marker date="1531851648286" expanded="true" signature="334:952" ph="..." />
+            <marker date="1531851648286" expanded="true" signature="347:952" ph="..." />
+            <marker date="1531851648286" expanded="true" signature="534:576" ph="..." />
           </folding>
         </state>
       </provider>
@@ -668,14 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms-basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="533" column="60" lean-forward="false" selection-start-line="533" selection-start-column="44" selection-end-line="533" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,31 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <marker date="1531815110517" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
-            <marker date="1531815110517" expanded="true" signature="334:987" ph="..." />
-            <marker date="1531815110517" expanded="true" signature="347:987" ph="..." />
-            <marker date="1531815110517" expanded="true" signature="547:589" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -825,6 +723,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <marker date="1531850785900" expanded="true" signature="138:608" ph="SELECT TOP(1... cArtNr" />
+            <marker date="1531850785900" expanded="true" signature="266:438" ph="SELECT cArtN... tbestellpos" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/logic/mUserSelect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -842,38 +751,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables-basic.html">
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="314" column="26" lean-forward="true" selection-start-line="285" selection-start-column="27" selection-end-line="314" selection-end-column="26" />
-          <folding />
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <marker date="1531851648286" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
+            <marker date="1531851648286" expanded="true" signature="334:952" ph="..." />
+            <marker date="1531851648286" expanded="true" signature="347:952" ph="..." />
+            <marker date="1531851648286" expanded="true" signature="534:576" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="542" column="54" lean-forward="false" selection-start-line="542" selection-start-column="47" selection-end-line="542" selection-end-column="54" />
+          <caret line="234" column="117" lean-forward="true" selection-start-line="228" selection-start-column="30" selection-end-line="234" selection-end-column="117" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="231" column="113" lean-forward="false" selection-start-line="231" selection-start-column="113" selection-end-line="231" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables-basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="291" column="50" lean-forward="true" selection-start-line="280" selection-start-column="19" selection-end-line="291" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms-basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="373" column="18" lean-forward="false" selection-start-line="373" selection-start-column="18" selection-end-line="583" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style-easymanager.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
+    <entry file="file://$PROJECT_DIR$/myProfile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <marker date="1531850785900" expanded="true" signature="138:608" ph="SELECT TOP(1... cArtNr" />
-            <marker date="1531850785900" expanded="true" signature="266:438" ph="SELECT cArtN... tbestellpos" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="354" column="74" lean-forward="false" selection-start-line="354" selection-start-column="74" selection-end-line="354" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>

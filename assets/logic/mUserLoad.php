@@ -18,7 +18,7 @@ echo "<th>Vorname</th>";
 echo "<th>Nachname</th>";
 echo "<th>Mail</th>";
 echo "<th>Rolle</th>";
-echo "<th>Bild</th></tr>";
+echo "</tr>";
 
 
 echo '</thead><tbody>';
@@ -31,7 +31,6 @@ foreach ($dbh->query($sql) as $row) {
     echo "<td>" . $row["lastname"] . "</td>";
     echo "<td>" . $row["mail"] . "</td>";
     echo "<td>" . $row["isAdmin"] . "</td>";
-    echo "<td></td>";
     echo "</tr>";
 
 }
