@@ -13,7 +13,7 @@ $_SESSION = array();
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sufee Admin - HTML5 Admin Template</title>
+    <title>easyManager - Admin</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -60,7 +60,7 @@ $_SESSION = array();
                                 <input type="checkbox"> Zugangsdaten speichern
                             </label>
                             <label class="pull-right">
-                                <a href="#">Passwort vergessen?</a>
+                                <a href="pages-forget.php">Passwort vergessen?</a>
                             </label>
 
                         </div>

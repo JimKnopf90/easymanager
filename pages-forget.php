@@ -41,10 +41,10 @@
                 <div class="login-form">
                     <form>
                         <div class="form-group">
-                            <label>Email address</label>
+                            <label>E-Mail Adresse</label>
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-flat m-b-15">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-flat m-b-15">Passwort anfordern</button>
 
                     </form>
                 </div>
