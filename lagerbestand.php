@@ -1,3 +1,8 @@
+<?php
+session_start();
+if(isset($_SESSION["adminusername"])) {
+    ?>
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -54,9 +59,9 @@
                             <li><i class="fa fa-puzzle-piece"></i><a href="lagerbestand.php">Lagerbestand</a></li>
                             <!-- <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li> -->
                             <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>-->
-                            <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Media</a></li>
+                            <li><i class="fa fa-share-square-o"></i><a href="social-media.php">Social Media</a></li>
                             <!-- <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li> -->
-                            <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Warnungen</a></li>
+                            <li><i class="fa fa-exclamation-triangle"></i><a href="warnungen.php">Warnungen</a></li>
                             <!-- <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li> -->
                             <!-- <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li> -->
                             <!-- <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li> -->
@@ -85,7 +90,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User-Verwaltung</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-user"></i><a href="user.php">Benutzer</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Berechtigungen</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="berechtigungen.php">Berechtigungen</a></li>
                         </ul>
                     </li>
                     <!-- <li>
@@ -113,7 +118,7 @@
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="admin-login.php">Login</a></li>
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -325,3 +330,9 @@
 
 </body>
 </html>
+<?php
+
+} else {
+    header("Location: /easymanager/admin-login.php");
+}
+?>
