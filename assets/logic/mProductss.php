@@ -110,11 +110,11 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
     echo '<thead>';
         echo '<tr>';
             echo '<th>Plattform</th>';
-            echo '<th>Artikelnummer</th>';
-            echo '<th>Artikelname</th>';
-            echo '<th>Plattform ID</th>';
+            echo '<th>Art.Nr.</th>';
+            echo '<th>Art.Name</th>';
+            echo '<th>ID</th>';
             echo '<th>EK Netto</th>';
-            echo '<th>Mehrwertsteuer</th>';
+            echo '<th>Mwst.</th>';
             // echo "<th>Versandklassen-ID</th>";
             echo '<th>Versandklasse</th>';
             echo '<th>Gewicht</th>';
@@ -125,6 +125,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
             echo '<th>Bestand</th>';
             echo '<th>Kategorie</th>';
         echo '</tr>';
+        
         
     echo '</thead>';
     echo '<tbody>';
