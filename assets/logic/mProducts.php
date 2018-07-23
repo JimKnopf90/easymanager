@@ -1,5 +1,5 @@
 <?php
-
+ 
     // TR: Versandklassen werden aus der Stars-DB gelesen und gespeichert.
     include("mCon.php");
     

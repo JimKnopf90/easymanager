@@ -11,7 +11,7 @@ if(isset($_SESSION["adminusername"])) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>easyManager - Berechtigungen</title>
+    <title>easyManager - Lagerbestand</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,6 +24,7 @@ if(isset($_SESSION["adminusername"])) {
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
     <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
     <link rel="stylesheet" href="assets/scss/style.css">
 
@@ -33,7 +34,7 @@ if(isset($_SESSION["adminusername"])) {
 
 </head>
 <body>
-           <!-- Left Panel -->
+            <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
@@ -262,7 +263,7 @@ if(isset($_SESSION["adminusername"])) {
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Dashboard</h1>
+                        <h1>Produktübersicht</h1>
                     </div>
                 </div>
             </div>
@@ -271,8 +272,8 @@ if(isset($_SESSION["adminusername"])) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="#">Dashboard</a></li>
-                            <li><a href="#">Icons</a></li>
-                            <li class="active">Themify</li>
+                            <li><a href="#">Controller Cockpit</a></li>
+                            <li class="active">Produktübersicht</li>
                         </ol>
                     </div>
                 </div>
@@ -281,32 +282,50 @@ if(isset($_SESSION["adminusername"])) {
 
         <div class="content mt-3">
             <div class="animated fadeIn">
+                <div class="row">
 
-
-                <div class="card">
-                    <div class="card-header">
-                        <i class="mr-2 fa fa-align-justify"></i>
-                        <strong class="card-title">Berechtigungen</strong>
-                    </div>
-                    <div class="card-body">
-                    </div>
-                </div>
-
-
-
+                </div><!-- .row -->
             </div><!-- .animated -->
         </div><!-- .content -->
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+                <div class="row">
 
+                <div class="col-md-12">
+                    <!-- <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Lagerbestandsübersicht</strong>
+                        </div>
+                        <div class="card-body">-->
+                            <?php
+	                            include("assets/logic/mProductss.php");
+	                        ?>
+                        
+                   <!-- </div> -->
+                </div>
 
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->
 
 
-    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+                <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+                <script src="assets/js/popper.min.js"></script>
+                <script src="assets/js/plugins.js"></script>
+                <script src="assets/js/main.js"></script>
+
+
+                <script src="assets/js/lib/data-table/datatables.min.js"></script>
+                <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+                <script src="assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+                <script src="assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+                <script src="assets/js/lib/data-table/jszip.min.js"></script>
+                <script src="assets/js/lib/data-table/pdfmake.min.js"></script>
+                <script src="assets/js/lib/data-table/vfs_fonts.js"></script>
+                <script src="assets/js/lib/data-table/buttons.html5.min.js"></script>
+                <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
+                <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
+                <script src="assets/js/lib/data-table/datatables-init.js"></script>
 
 
 </body>
