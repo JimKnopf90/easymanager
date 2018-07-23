@@ -121,7 +121,7 @@ if(isset($_SESSION["adminusername"])) {
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>
-                </ul>
+                </ul> 
             </div><!-- /.navbar-collapse -->
         </nav>
     </aside><!-- /#left-panel -->
@@ -279,7 +279,7 @@ if(isset($_SESSION["adminusername"])) {
                 </div>
             </div>
         </div>
-
+        
         <div class="content mt-3">
             <div class="animated fadeIn">
                 <div class="row">
