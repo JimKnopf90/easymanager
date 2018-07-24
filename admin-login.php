@@ -60,7 +60,7 @@ $_SESSION = array();
                                 <input type="checkbox"> Zugangsdaten speichern
                             </label>
                             <label class="pull-right">
-                                <a href="pages-forget.php">Passwort vergessen?</a>
+                                <a href="forget-password.php">Passwort vergessen?</a>
                             </label>
 
                         </div>

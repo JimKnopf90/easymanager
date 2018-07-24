@@ -84,22 +84,6 @@
                                 WHERE kOberKategorie IN (SELECT kKategorie From tkategorie	
                                 WHERE kOberKategorie = 218 OR kKategorie = 218)))))) AND (1 = AVAL.Zustand)";
 
-$plattformSearch = isset($_GET['txt-plattform']) ? $_GET['txt-plattform'] : '';
-$artikelnummerSearch = isset($_GET['txt-artikelnummer']) ? $_GET['txt-artikelnummer'] : '';
-$artikelnameSearch = isset($_GET['txt-artikelname']) ? $_GET['txt-artikelname'] : '';
-$herstellerSearch = isset($_GET['txt-hersteller']) ? $_GET['txt-hersteller'] : '';
-$plattformIDSearch = isset($_GET['txt-plattformid']) ? $_GET['txt-plattformid'] : '';
-$eknettoSearch = isset($_GET['txt-eknetto']) ? $_GET['txt-eknetto'] : '';
-$mwstSearch = isset($_GET['txt-mwst']) ? $_GET['txt-mwst'] : '';
-$versandklassenSearch = isset($_GET['txt-versandklasse']) ? $_GET['txt-versandklasse'] : '';
-$gewichtSearch = isset($_GET['txt-gewicht']) ? $_GET['txt-gewicht'] : '';
-$vkpreisSearch = isset($_GET['txt-vkpreis']) ? $_GET['txt-vkpreis'] : '';
-$bestandSearch = isset($_GET['txt-bestand']) ? $_GET['txt-bestand'] : '';
-$nullpreisSearch = isset($_GET['txt-nullpreis']) ? $_GET['txt-nullpreis'] : '';
-$margeEuroSearch = isset($_GET['txt-margeeuro']) ? $_GET['txt-margeeuro'] : '';
-$margeProzentSearch = isset($_GET['txt-margeprozent']) ? $_GET['txt-margeprozent'] : '';
-
-
 echo '<div class="card">';
 echo '<div class="card-header">';
 echo '<strong class="card-title">Lagerbestandsübersicht</strong>';
@@ -123,12 +107,47 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
             echo '<th>Marge €</th>';
             echo '<th>Marge %</th>';
             echo '<th>Bestand</th>';
-            echo '<th>Kategorie</th>';
+            // echo '<th>Kategorie</th>';
         echo '</tr>';
-        
-        
     echo '</thead>';
+
     echo '<tbody>';
+        foreach ($dbh->query($sql) as $row) {
+            $valueVersandkosten = $versandklassen[$row["cName"]][$row["cName"]];
+            $valueVerpackungskosten = $verpackungskosten[$row["cName"]][$row["cName"]];
+            $mwst = $row["VerkaufspreisBrutto"] - ($row["VerkaufspreisBrutto"] * 100 / (floatval($row["fSteuersatz"]) + 100 )) ;
+            $amazonKosten = $row["VerkaufspreisBrutto"] / 100 * 15;
+            $summeGesamtkosten = $mwst + $amazonKosten + $row["GesamtEkNetto"] + $valueVersandkosten + $valueVerpackungskosten;
+            $margeEuro = ($row["VerkaufspreisBrutto"] - $summeGesamtkosten);
+            
+            if ($row["VerkaufspreisBrutto"] != 0) {
+                $margeProzent = 100 * $margeEuro / $row["VerkaufspreisBrutto"];
+            } else {
+                $margeProzent = 0.0 ;
+            }
+
+            echo '<tr>';
+                echo "<td>" . $row["Plattform"] . "</td>";
+                echo "<td>" . $row["Artikelnummer"] . "</td>";
+                echo "<td>" . $row["Bezeichnung"] . "</td>";
+                echo "<td>" . $row["ASIN"] . '</td>';
+                echo "<td>" . number_format(floatval($row["GesamtEkNetto"]), 2,",", ".") . " €</td>";
+                echo "<td>" . floatval($row["fSteuersatz"]) . " %</td>";
+                // versandklassenID > echo "<td>" . $row["kVersandklasse"] . "</td>";
+                echo "<td>" . $row["cName"] . "</td>";
+                echo "<td>" . number_format(floatval($row["Versandgewicht"]),2, ",", ".") . " kg</td>";
+                echo "<td>" . number_format((floatval($row["GesamtEkNetto"]) + $valueVersandkosten + $valueVerpackungskosten ) * 1.19 * 1.217, 2, ",", ".") . " €</td>";
+                echo "<td>" . number_format(floatval($row["VerkaufspreisBrutto"]),2, ",", ".") . " €</td>";
+                echo "<td>" . number_format($margeEuro, 2, ",", ".") . " €</td>";
+                echo "<td>" . number_format($margeProzent, 2, ",", ".") . " %</td>";
+                echo "<td>" . number_format(floatval($row["BestandGesamt"]),2, ",", ".") . "</td>";
+            echo '</tr>';
+
+        }
+    echo '</table>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
 
 
 

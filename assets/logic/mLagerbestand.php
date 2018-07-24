@@ -48,7 +48,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
         echo '</tr>';
     echo '</thead>';
 
-    echo '<tbody>';
+    echo '<tbody>'; 
 
 
     foreach ($dbh->query($sql) as $row) {
