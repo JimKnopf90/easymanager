@@ -44,8 +44,8 @@ if(isset($_SESSION["adminusername"])) {
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="images"><img src="images/logo.png" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="images"><img src="images/logo2.png" alt="Logo"></a>
+                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -57,69 +57,77 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Auswertungen</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Lagerbestand</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
-                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
-                            <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Buttons</a></li>
-                            <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>
-                            <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Alerts</a></li>
-                            <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li>
-                            <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li>
-                            <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li>
-                            <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li>
-                            <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li>
+                            <li><i class="fa fa-puzzle-piece"></i><a href="lagerbestand.php">Lagerbestand</a></li>
+                            <!-- <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li> -->
+                            <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>-->
+                            <li><i class="fa fa-share-square-o"></i><a href="social-media.php">Social Media</a></li>
+                            <li><i class="fa fa-id-card-o"></i><a href="products.php">Produkte</a></li> 
+                            <li><i class="fa fa-exclamation-triangle"></i><a href="warnungen.php">Warnungen</a></li>
+                            <!-- <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li> -->
+                            <!-- <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li> -->
+                            <!-- <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li> -->
+                            <!-- <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li> -->
+                            <!-- <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li> -->
                         </ul>
                     </li>
-                    <li class="menu-item-has-children dropdown">
+                    <!-- <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="tables-basic.html">Basic Table</a></li>
                             <li><i class="fa fa-table"></i><a href="tables-data.html">Data Table</a></li>
                         </ul>
-                    </li>
-                    <li class="menu-item-has-children dropdown">
+                    </li> -->
+                    <!-- <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Forms</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <h3 class="menu-title">Administration</h3><!-- /.menu-title -->
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>User-Verwaltung</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User-Verwaltung</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="user.php">Benutzer</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Berechtigungen</a></li>
+                            <li><i class="menu-icon fa fa-user"></i><a href="user.php">Benutzer</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="berechtigungen.php">Berechtigungen</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
+                    </li> -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Parameter</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="versandklassen.php">Versandklassen</a></li>
+                            <!-- <li><i class="menu-icon fa fa-area-chart"></i><a href="repricer.php">Amazon Repricer</a></li> -->
+                            <!-- <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li> -->
+                        </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Charts</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-area-chart"></i>Amazon Repricer</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="charts-chartjs.html">Chart JS</a></li>
-                            <li><i class="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">Flot Chart</a></li>
-                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li>
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="repricer.php">Repricer-Übersicht</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="#">Strategien</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="#">Kategorien</a></li>
                         </ul>
                     </li>
 
-                    <li class="menu-item-has-children dropdown">
+                    <!-- <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-area-chart"></i>Maps</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-map-o"></i><a href="maps-gmap.html">Google Maps</a></li>
                             <li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <h3 class="menu-title">Extras</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="admin-login.php">Login</a></li>
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                            <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>
                 </ul>

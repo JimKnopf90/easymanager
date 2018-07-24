@@ -103,8 +103,17 @@ if(isset($_SESSION["adminusername"])) {
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Parameter</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-line-chart"></i><a href="versandklassen.php">Versandklassen</a></li>
-                            <!-- <li><i class="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">Flot Chart</a></li> -->
+                            <!-- <li><i class="menu-icon fa fa-area-chart"></i><a href="repricer.php">Amazon Repricer</a></li> -->
                             <!-- <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-area-chart"></i>Amazon Repricer</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="repricer.php">Repricer-Übersicht</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="#">Strategien</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="#">Kategorien</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="#">Im- und Export</a></li>
                         </ul>
                     </li>
 
@@ -120,7 +129,7 @@ if(isset($_SESSION["adminusername"])) {
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="admin-login.php">Login</a></li>
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
+                            <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>

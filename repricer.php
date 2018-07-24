@@ -271,7 +271,7 @@ if(isset($_SESSION["adminusername"])) {
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Produktübersicht</h1>
+                        <h1>Preisoptimierung</h1>
                     </div>
                 </div>
             </div>
@@ -280,8 +280,8 @@ if(isset($_SESSION["adminusername"])) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="#">Dashboard</a></li>
-                            <li><a href="#">Controller Cockpit</a></li>
-                            <li class="active">Lagerbestandsübersicht</li>
+                            <li><a href="#">Amazon Repricer</a></li>
+                            <li class="active">Preisoptimierung</li>
                         </ol>
                     </div>
                 </div>
@@ -305,9 +305,9 @@ if(isset($_SESSION["adminusername"])) {
                             <strong class="card-title">Lagerbestandsübersicht</strong>
                         </div>
                         <div class="card-body">-->
-                            <?php
-	                            include("assets/logic/mProducts.php");
-	                        ?>
+                        <?php
+	                            include("assets/logic/mRepricer.php");
+	                    ?>   
                         
                    <!-- </div> -->
                 </div>
