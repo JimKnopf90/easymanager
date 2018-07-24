@@ -273,7 +273,7 @@ if(isset($_SESSION["adminusername"])) {
                         <ol class="breadcrumb text-right">
                             <li><a href="#">Dashboard</a></li>
                             <li><a href="#">Controller Cockpit</a></li>
-                            <li class="active">Produktübersicht</li>
+                            <li class="active">Lagerbestandsübersicht</li>
                         </ol>
                     </div>
                 </div>
@@ -298,7 +298,7 @@ if(isset($_SESSION["adminusername"])) {
                         </div>
                         <div class="card-body">-->
                             <?php
-	                            include("assets/logic/mProductss.php");
+	                            include("assets/logic/mProducts.php");
 	                        ?>
                         
                    <!-- </div> -->
