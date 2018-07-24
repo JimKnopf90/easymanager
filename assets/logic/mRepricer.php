@@ -2,10 +2,6 @@
    
 include("mConErp.php");
 
-$gesamtWarenwert = 0;
-$y = 0;
-
-
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
         
 
@@ -33,6 +29,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
             echo '<th>Solo Preis</th>';
             echo '<th>Versand</th>';
             echo '<th>Strategie</th>';
+            echo '<th>Gewinn</th>';
             echo '<th>Kategorie</th>';
             echo '<th></th>';
         echo '</tr>';
