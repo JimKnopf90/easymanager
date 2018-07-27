@@ -280,6 +280,7 @@ if(isset($_SESSION["adminusername"])) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="#">Controller Cockpit</a></li>
+                            <li><a href="#">Amazon</a></li>
                             <li><a href="#">Auswertungen</a></li>
                             <li class="active">Preisoptimierung</li>
                         </ol>

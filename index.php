@@ -64,7 +64,7 @@ if(isset($_SESSION["adminusername"])) {
                             <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>-->
                             <li><i class="fa fa-share-square-o"></i><a href="#">Strategien</a></li>
                             <li><i class="fa fa-id-card-o"></i><a href="#">Kategorien</a></li> 
-                            <li><i class="fa fa-exclamation-triangle"></i><a href="#">Im- und Export</a></li>
+                            <li><i class="fa ti-export"></i><a href="#">Im- und Export</a></li>
                             <li><i class="fa fa-spinner"></i><a href="#">Bestseller</a></li>
                             <!-- <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li> -->
                             <!-- <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li> -->
@@ -146,6 +146,16 @@ if(isset($_SESSION["adminusername"])) {
                             <li><i class="menu-icon fa fa-area-chart"></i><a href="#">Verkauf</a></li>
                             <!-- <li><i class="menu-icon fa fa-pie-chart"></i><a href="#"></a></li> -->
                             <!-- <li><i class="menu-icon fa fa-pie-chart"></i><a href="#">Im- und Export</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon ti-sharethis"></i>Social-Media</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa ti-facebook"></i><a href="#">Facebook</a></li>
+                            <li><i class="menu-icon fa ti-twitter-alt"></i><a href="#">Twitter</a></li>
+                            <li><i class="menu-icon fa ti-instagram"></i><a href="#">Instagram</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="#">Xing</a></li>
+                            <li><i class="menu-icon fa ti-pinterest"></i><a href="#">Pinterest</a></li>
                         </ul>
                     </li>
 
