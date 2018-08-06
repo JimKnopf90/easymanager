@@ -3,6 +3,7 @@ session_start();
 
 session_destroy();
 $_SESSION = array();
+
 ?>
 
 <!doctype html>
@@ -57,7 +58,7 @@ $_SESSION = array();
                         </div>
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox"> Zugangsdaten speichern
+                                <span></span>
                             </label>
                             <label class="pull-right">
                                 <a href="forget-password.php">Passwort vergessen?</a>
