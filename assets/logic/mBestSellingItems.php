@@ -16,7 +16,7 @@ echo "</div><div id='divBestseller' class='card-body'><table id='tblBestsellerIt
 
 echo "<tr>";
 echo "<th class='headBestsellerItems' scope='col'>#</th>";
-echo "<th class='headBestsellerItems' scope='col'>Artiklebezeichnung</th>";
+echo "<th class='headBestsellerItems' scope='col'>Artikelbezeichnung</th>";
 echo "<th class='headBestsellerItems' scope='col'>VK in <span class='fa fa-eur'></span></th>";
 echo "</tr></thead>";
 

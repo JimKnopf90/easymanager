@@ -589,13 +589,9 @@ if(isset($_SESSION["adminusername"])) {
 
            <div class="col-xl-3 col-lg-6">
                 <section class="card">
-                    <div>
                         <?php
                         include("assets/logic/mBestSellingItems.php")
                         ?>
-                    </div>
-
-
                 </section>
             </div>
 
