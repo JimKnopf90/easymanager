@@ -17,6 +17,14 @@ CREATE TABLE [dbo].[tUser](
 	[mail] [varchar](150) NOT NULL,
 	[isAdmin] [int] NOT NULL,
 	[active] [int] NULL,
+	[salutation] [varchar] (50) NULL,
+	[birthday] [date] NULL,
+	[street] [varchar](150) NULL,
+	[place] [varchar](50) NULL,
+	[postCode] [int] NULL,
+	[aboutYou] [varchar](1500) NULL,
+	[vorwahl] [varchar](50) NULL,
+	[phoneNumber] [varchar](50) NULL,
  CONSTRAINT [PK_tUser] PRIMARY KEY CLUSTERED 
 (
 	[usernameid] ASC
