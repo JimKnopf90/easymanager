@@ -1,5 +1,5 @@
-<script>
-var myInput = document.getElementById("psw");
+
+var myInput = document.getElementById("password-input");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
@@ -56,4 +56,3 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 }
-</script>

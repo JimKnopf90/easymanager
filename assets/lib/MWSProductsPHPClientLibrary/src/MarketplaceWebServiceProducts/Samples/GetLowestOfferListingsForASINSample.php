@@ -108,8 +108,14 @@ $request->setMarketplaceId(MARKETPLACE_ID);
         $dom = new DOMDocument();
         $dom->loadXML($response->toXML());
         $dom->preserveWhiteSpace = true;
-        $dom->formatOutput = true;
+        $dom->formatOutput = false;
         echo $dom->saveXML();
+
+       $getLowestOfferListingsForASINResult = $dom->getElementsByTagName("GetLowestOfferListingsForASINResult");
+       $product = $getLowestOfferListingsForASINResult->item(0);
+       $asinNode = $product->getElementsByTagName("ASIN");
+       $asin = $asinNode->item(0)->nodeValue;
+
         echo("ResponseHeaderMetadata: " . $response->getResponseHeaderMetadata() . "\n");
 
      } catch (MarketplaceWebServiceProducts_Exception $ex) {

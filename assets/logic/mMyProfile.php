@@ -3,9 +3,9 @@
 include("mCon.php");
         
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
-$sql = "SELECT usernameid, username, forename, password, lastname, mail, salutation, birthday, street, place, postCode, aboutYou, phoneNumber, vorwahl
+$sql = "SELECT usernameid, username, forename, password, lastname, mail, salutation, birthday, street, place, postCode, aboutYou, phoneNumber
                 FROM tUser WHERE username =  '" . $_SESSION['adminusername'] . "'";
-    echo $sql;
+    //echo $sql;
 foreach ($dbh->query($sql) as $row) {
   ////isAdmin, 
 ?>
@@ -85,7 +85,7 @@ foreach ($dbh->query($sql) as $row) {
                             </div>
                             <div class="row form-group">
                                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Telefonnummer</label></div>
-                                <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Telefonnummer" class="form-control" value="<?php echo $row["vorwahl"] . $row["phoneNumber"]; ?>"><small class="form-text text-muted">Bitte hinterlege deine Telefonnummer</small></div>
+                                <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Telefonnummer" class="form-control" value="<?php echo $row["phoneNumber"]; ?>"><small class="form-text text-muted">Bitte hinterlege deine Telefonnummer</small></div>
                             </div>
                         </div>
                     </div>

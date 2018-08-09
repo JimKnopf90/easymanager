@@ -11,8 +11,8 @@ $sql = "SELECT TOP(10) AB.cName, Artikel.cArtNr, Artikel.Gesamtanzahl, Artikel.[
         GROUP BY cArtNr) AS Artikel JOIN tArtikel ON Artikel.cArtNr = tArtikel.cArtNr JOIN tArtikelBeschreibung AS AB ON AB.kArtikel = tArtikel.kArtikel 
         ORDER BY [Gesamt-VK-Preis] DESC";
 
-echo "<div class='card'><div class='card-header'><strong class='card-title'>Bestseller Artikel</strong>";
-echo "</div><div id='divBestseller' class='card-body'><table id='tblBestsellerItems' class='table'><thead>";
+echo "<div class='card'><div class='card-header'><strong class='card-title'><span>Top </span><span class='count'>10</span> Artikel</strong>";
+echo "<div id='divBestseller' class='card-body'><table id='tblBestsellerItems' class='table'><thead>";
 
 echo "<tr>";
 echo "<th class='headBestsellerItems' scope='col'>#</th>";
