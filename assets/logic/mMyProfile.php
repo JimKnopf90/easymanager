@@ -33,7 +33,7 @@ foreach ($dbh->query($sql) as $row) {
                                     <?php 
                                     if($row["salutation"] == 0){
                                       echo "Herr";  
-                                    }elseif($row["salutation"] == 1){
+                                    }if($row["salutation"] == 1){
                                         echo "Frau";
                                     } ?> </option>
                                     <!-- <option value='2'><?php echo $row["salutation"]; ?></option> -->
@@ -71,7 +71,13 @@ foreach ($dbh->query($sql) as $row) {
                             </div>
                             <div class="row form-group">
                                 <div class="col col-md-3"><label for="password-input" class=" form-control-label">Passwort</label></div>
-                                <div class="col-12 col-md-9"><input type="password" id="password-input" name="password-input" placeholder="Passwort" class="form-control"  value="<?php echo $row["password"]; ?>"><small class="form-text text-muted">Bitte hinterlege ein sichers Kennwort</small></div>
+                                <div class="col-12 col-md-9"><input type="password" id="password-input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password-input" placeholder="Passwort" class="form-control"  value="<?php echo $row["password"]; ?>"><small class="form-text text-muted">
+                                <span id="length" class="invalid">Mindestens 8 Zeichen</span>, <span id="letter" class="invalid">Kleinbuchstaben</span>, <span id="capital" class="invalid">Großbuchstaben</span> und <span id="number" class="invalid">Zahlen</span> 
+                                </small></div>
+                                <!-- <p id="letter" class="invalid"><b>Kleinbuchstaben</b></p>
+                                <p id="capital" class="invalid"><b>Großbuchstaben</b></p>
+                                <p id="number" class="invalid"><b>Zahlen</b></p>
+                                <p id="length" class="invalid">Mindestens <b>8 Zeichen</b></p> -->
                             </div>
                             <div class="row form-group">
                                 <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Über dich</label></div>
@@ -104,6 +110,7 @@ foreach ($dbh->query($sql) as $row) {
                         </div>
                     </div>
                 </div>
+
 <?php
 }
 ?>

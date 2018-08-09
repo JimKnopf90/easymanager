@@ -305,7 +305,7 @@ if(isset($_SESSION["adminusername"])) {
 
     <!-- Right Panel -->
 
-
+    <script src="assets/js/passwortabfrage.js"></script>
     <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/plugins.js"></script>
@@ -323,7 +323,7 @@ if(isset($_SESSION["adminusername"])) {
     <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
     <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
     <script src="assets/js/lib/data-table/datatables-init.js"></script>
-
+    
 
 
 
