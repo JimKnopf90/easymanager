@@ -66,7 +66,7 @@ if(isset($_SESSION["adminusername"])) {
                             <li><i class="fa fa-id-card-o"></i><a href="#">Kategorien</a></li> 
                             <li><i class="fa ti-export"></i><a href="#">Im- und Export</a></li>
                             <li><i class="fa fa-spinner"></i><a href="#">Bestseller</a></li>
-                            <!-- <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li> -->
+                            <li><i class="fa fa-fire"></i><a href="amazon-marketplace-login.php">Marketplace ID</a></li>
                             <!-- <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li> -->
                             <!-- <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li> -->
                             <!-- <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li> -->

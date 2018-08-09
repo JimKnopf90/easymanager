@@ -25,6 +25,7 @@ CREATE TABLE [dbo].[tUser](
 	[aboutYou] [varchar](1500) NULL,
 	[vorwahl] [varchar](50) NULL,
 	[phoneNumber] [varchar](50) NULL,
+	[isSuperadmin] [varchar](150) NULL,
  CONSTRAINT [PK_tUser] PRIMARY KEY CLUSTERED 
 (
 	[usernameid] ASC

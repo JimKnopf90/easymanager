@@ -85,10 +85,10 @@
                                 WHERE kOberKategorie = 218 OR kKategorie = 218)))))) AND (1 = AVAL.Zustand)";
 
 echo '<div class="card">';
-echo '<div class="card-header">';
-echo '<strong class="card-title">Lagerbestandsübersicht</strong>';
-echo '</div>';
-echo '<div class="card-body">';
+    echo '<div class="card-header">';
+        echo '<strong class="card-title">Lagerbestandsübersicht</strong>';
+    echo '</div>';
+    echo '<div class="card-body">';
 
 echo '<table id="bootstrap-data-table" class="table table-striped table-bordered">';
     echo '<thead>';
@@ -144,8 +144,8 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
             echo '</tr>';
 
         }
+    echo '</tbody>';
     echo '</table>';
-    echo '</div>';
     echo '</div>';
     echo '</div>';
 
