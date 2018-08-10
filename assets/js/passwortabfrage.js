@@ -4,16 +4,16 @@ var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
 var length = document.getElementById("length");
-
+// Ausgeblendet, weil sich durch das einblenden das untere Textfeld verschiebt. Jetzt wirds immer angezeigt. 
 // When the user clicks on the password field, show the message box
-myInput.onfocus = function() {
-  document.getElementById("message").style.display = "block";
-}
+//myInput.onfocus = function() {
+//  document.getElementById("requirement").style.display = "block";
+//}
 
 // When the user clicks outside of the password field, hide the message box
-myInput.onblur = function() {
-  document.getElementById("message").style.display = "none";
-}
+//myInput.onblur = function() {
+  //document.getElementById("requirement").style.display = "none";
+//}
 
 // When the user starts to type something inside the password field
 myInput.onkeyup = function() {
