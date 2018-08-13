@@ -130,7 +130,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
                 echo "<td>" . $row["Plattform"] . "</td>";
                 echo "<td>" . $row["Artikelnummer"] . "</td>";
                 echo "<td>" . $row["Bezeichnung"] . "</td>";
-                echo "<td>" . $row["ASIN"] . '</td>';
+                echo "<td><a href='https://www.amazon.de/dp/'". $row["ASIN"] .">" . $row["ASIN"] . '</td>';
                 echo "<td>" . number_format(floatval($row["GesamtEkNetto"]), 2,",", ".") . " €</td>";
                 echo "<td>" . floatval($row["fSteuersatz"]) . " %</td>";
                 // versandklassenID > echo "<td>" . $row["kVersandklasse"] . "</td>";
@@ -142,7 +142,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
                 echo "<td>" . number_format($margeProzent, 2, ",", ".") . " %</td>";
                 echo "<td>" . number_format(floatval($row["BestandGesamt"]),2, ",", ".") . "</td>";
             echo '</tr>';
-
+            
         }
     echo '</tbody>';
     echo '</table>';

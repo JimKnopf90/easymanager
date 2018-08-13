@@ -1,11 +1,11 @@
 <?php
         
 include("mCon.php");
-        
+include("mAmazonAccesKeys.php"); 
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
-        
-$sql = "SELECT SellerID, MWSAuthToken, AWSAccesKeyID, SecretKey, MarketplaceID, Sellername
-                FROM tAmazonAccess";
+       
+//$sql = "SELECT SellerID, MWSAuthToken, AWSAccesKeyID, SecretKey, MarketplaceID, Sellername
+               // FROM tAmazonAccess";
 
 
 echo "<table id='bootstrap-data-table' class='table table-striped table-bordered'>";
