@@ -59,7 +59,7 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Amazon</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="amazon-preisoptimierung.php">Preisoptimierung</a></li>
+                            <li><i class="fa fa-puzzle-piece"></i><a href="amazonPreisoptimierung.php">Preisoptimierung</a></li>
                             <!-- <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li> -->
                             <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>-->
                             <li><i class="fa fa-share-square-o"></i><a href="#">Strategien</a></li>
@@ -125,7 +125,7 @@ if(isset($_SESSION["adminusername"])) {
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User-Verwaltung</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-user"></i><a href="user.php">Benutzer</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="berechtigungen.php">Berechtigungen</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="authority.php">Berechtigungen</a></li>
                         </ul>
                     </li>
                     <!-- <li>
@@ -134,10 +134,10 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Parameter</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="versandklassen.php">Versandklassen</a></li>
-                            <li><i class="menu-icon fa fa-area-chart"></i><a href="lagerbestand.php">Lagerbestand</a></li>
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="shippingClass.php">Versandklassen</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
                             <li><i class="menu-icon fa fa-pie-chart"></i><a href="products.php">Produktübersicht</a></li>
-                            <li><i class="fa fa-fire"></i><a href="amazon-marketplace-login.php">Marketplace ID</a></li>
+                            <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">

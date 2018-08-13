@@ -59,7 +59,7 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
 
         echo '<tr>';
             echo '<td>AM18-07-25-01</td>';
-            echo '<td><a href="#">B06W9KWLPY</a></td>';
+            echo '<td><a href="https://www.amazon.de/dp/B06W9KWLPY">B06W9KWLPY</a></td>';
             echo '<td>' . $row["cName"] . '</td>';
             echo '<td>54</td>';
             echo '<td>4,49</td>';

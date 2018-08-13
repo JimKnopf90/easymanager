@@ -20,7 +20,7 @@ try {
     if($count == 1) {
 
         $_SESSION["adminusername"] = $_POST['username'];
-         header("Location: ../../amazon-marketplaceIDs.php");
+         header("Location: ../../amazonMarketplaceIDs.php");
 
          $sql = "DELETE FROM tLoginTries WHERE usernameid = " . $usernameid;
          $sth = $dbh->prepare($sql);
