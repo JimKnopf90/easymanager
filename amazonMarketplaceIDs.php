@@ -129,12 +129,12 @@ if(isset($_SESSION["adminusername"])) {
                         <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
                     </li> -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Parameter</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>E-Commerce</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="shippingClass.php">Versandklassen</a></li>
-                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
-                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="products.php">Produktübersicht</a></li>
-                            <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="amazonMarketplaceLogin.php">Amazon Einstellungen</a></li>
+                            
+
+                            <!-- <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li> -->
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -164,15 +164,36 @@ if(isset($_SESSION["adminusername"])) {
                             <li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>
                         </ul>
                     </li> -->
+                    <h3 class="menu-title">Einstellungen & Übersicht</h3><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Globale Einstellungen</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="shippingClass.php">Versandklassen</a></li>
+                            
+                            <!-- <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>-->
+                            <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
+                            <!-- <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Globale Übersicht</a>
+                        <ul class="sub-menu children dropdown-menu">                            
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="products.php">Produktübersicht</a></li>
+                        </ul>
+                    </li>
                     <h3 class="menu-title">Extras</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="admin-login.php">Login</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
                             <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
+                            
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>
+                    
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -323,9 +344,9 @@ if(isset($_SESSION["adminusername"])) {
                 <div class="page-header float-right">
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
-                            <li><a href="#">Dashboard</a></li>
-                            <li><a href="#">User-Verwaltung</a></li>
-                            <li class="active">Benutzer</li>
+                            <li><a href="#">Administration</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li class="active">Amazon Einstellungen</li>
                         </ol>
                     </div>
                 </div>
@@ -339,7 +360,7 @@ if(isset($_SESSION["adminusername"])) {
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">Benutzer</strong>
+                                <strong class="card-title">Amazon Einstellungen</strong>
                                 <button id="btnAddUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID anlegen" data-target="#mediumModalAddUser"><i id="addUser" class="fa fa-plus-circle"></i></button>
                                 <button id="btnDeleteUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID löschen" data-target="#mediumModalDelteUser"><i id="deleteUser" class="fa fa-minus-circle"></i></button>
                                 <button id="btnEditUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID bearbeiten" data-target="#mediumModalEditUser"><i id="editUser" class="fa fa-pencil"></i></button>

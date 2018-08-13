@@ -1,7 +1,7 @@
 <?php
         
 include("mCon.php");
-include("mAmazonAccesKeys.php"); 
+include("mAmazonAccessKeys.php"); 
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
        
 //$sql = "SELECT SellerID, MWSAuthToken, AWSAccesKeyID, SecretKey, MarketplaceID, Sellername
