@@ -1,6 +1,6 @@
 <?php
    
-include("mConErp.php");
+include("mCon.php");
 
 $gesamtWarenwert = 0;
 $y = 0;
@@ -8,26 +8,15 @@ $y = 0;
 
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
         
-$sql = "SELECT        Tabelle.kKategorie, dbo.tKategorieSprache.cName AS 'Kategoriename', Tabelle.kOberKategorie, Tabelle.kArtikel, Tabelle.cArtNr, Tabelle.cName, Tabelle.fLagerbestand, Tabelle.fZulauf, Tabelle.fInAuftraegen, Tabelle.fVerfuegbar, dbo.tliefartikel.fEKNetto
-FROM            (SELECT        dbo.tkategorie.kKategorie, dbo.tkategorie.kOberKategorie, dbo.tkategorieartikel.kArtikel, dbo.tArtikel.cArtNr, dbo.tArtikelBeschreibung.cName, dbo.tlagerbestand.fLagerbestand, 
-                                                    dbo.tlagerbestand.fZulauf, dbo.tlagerbestand.fInAuftraegen, dbo.tlagerbestand.fVerfuegbar
-                          FROM            dbo.tkategorie INNER JOIN
-                                                    dbo.tkategorieartikel ON dbo.tkategorie.kKategorie = dbo.tkategorieartikel.kKategorie INNER JOIN
-                                                    dbo.tArtikel ON dbo.tkategorieartikel.kArtikel = dbo.tArtikel.kArtikel INNER JOIN
-                                                    dbo.tArtikelBeschreibung ON dbo.tkategorieartikel.kArtikel = dbo.tArtikelBeschreibung.kArtikel INNER JOIN
-                                                    dbo.tlagerbestand ON dbo.tkategorieartikel.kArtikel = dbo.tlagerbestand.kArtikel
-                          WHERE        (dbo.tkategorie.kOberKategorie IN
-                                                        (SELECT        kKategorie
-                                                          FROM            dbo.tkategorie AS tkategorie_1
-                                                          WHERE        (kOberKategorie = 39))) OR
-                                                    (dbo.tkategorie.kOberKategorie = 39)) AS Tabelle INNER JOIN
-                         dbo.tliefartikel ON Tabelle.kArtikel = dbo.tliefartikel.tArtikel_kArtikel INNER JOIN dbo.tKategorieSprache ON dbo.tKategorieSprache.kKategorie = Tabelle.kKategorie
-WHERE        (dbo.tliefartikel.tLieferant_kLieferant = 34)";
-
-    /** Table Header **/
-
-
-
+$sql = "SELECT artikelbezeichnung, artikelbeschreibung,	angebotsnummer,	haendlerSKU, preis, menge, erstellungsdatum,
+        imageUrl, artikelIstMarketplaceAngebot,	produktIDTyp, zshopShippingFee,	anmerkungZumArtikel, artikelzustand,
+	    zshopCategory1,	zshopBrowsePath, zshopStorefrontFeature, asin1,	asin2, asin3, internationalerVersand, expressversand,
+	    zshopBoldface, produktID, bidForFeaturedPlacement, hinzufuegenLoeschen , anzahlBestellungen, versender,	geschueftspreis,
+	    mengePreisTyp, mengeUntereGrenze1, mengePreis1,	mengeUntereGrenze2,	mengePreis2, mengeUntereGrenze3, mengePreis3,
+	    mengeUntereGrenze4,	mengePreis4,mengeUntereGrenze5,	mengePreis5, huendlerversandgruppe,	produktsteuerschlüssel,
+	    nettopreis,	nettopreisBusiness,	preisProStueckohneSteuer1, preisProStueckohneSteuer2, preisProStueckohneSteuer3,
+	    preisProStueckohneSteuer4, preisProStueckohneSteuer5
+	    FROM tAmazonInventory";
 
 echo '<div class="card">';
 echo '<div class="card-header">';
@@ -58,14 +47,14 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
     foreach ($dbh->query($sql) as $row) { 
 
         echo '<tr>';
-            echo '<td>AM18-07-25-01</td>';
-            echo '<td><a href="#">B06W9KWLPY</a></td>';
-            echo '<td>' . $row["cName"] . '</td>';
-            echo '<td>54</td>';
+            echo '<td>' . $row["haendlerSKU"] . '</td>';
+            echo '<td><a href="#">' . $row["asin1"]. '</a></td>';
+            echo '<td>' . $row["artikelbezeichnung"] . '</td>';
+            echo '<td>' . $row["menge"] . '</td>';
             echo '<td>4,49</td>';
             echo '<td>5,49 €</td>';
-            echo '<td>6,99 €</td>';
-            echo '<td>0,00 €</td>';
+            echo '<td>' . $row["preis"] . '</td>';
+            echo '<td> Value</td>';
             echo '<td>B.B max.</td>';
             echo '<td>0,21 €</td>';
             echo '<td><button class="btn-edit" type="button" >B</button></td>';
