@@ -1,13 +1,13 @@
 <?php
-
+    include("../../../../../logic/mAmazonAccessKeys.php");
    /************************************************************************
     * REQUIRED
     *
     * Access Key ID and Secret Acess Key ID, obtained from:
     * http://aws.amazon.com
     ***********************************************************************/
-    define('AWS_ACCESS_KEY_ID', 'AKIAIFCX4V4IQPN3TN5A');
-    define('AWS_SECRET_ACCESS_KEY', '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');
+    define('AWS_ACCESS_KEY_ID', $row["AWSAccesKeyID"]);
+    define('AWS_SECRET_ACCESS_KEY', $row["SecretKey"]);
 
    /************************************************************************
     * REQUIRED
@@ -15,7 +15,7 @@
     * All MWS requests must contain a User-Agent header. The application
     * name and version defined below are used in creating this value.
     ***********************************************************************/
-    define('APPLICATION_NAME', 'easyManager');
+    define('APPLICATION_NAME', $row["Sellername"]);
     define('APPLICATION_VERSION', '1.0.0');
 
    /************************************************************************
@@ -24,8 +24,8 @@
     * All MWS requests must contain the seller's merchant ID and
     * marketplace ID.
     ***********************************************************************/
-    define ('MERCHANT_ID', 'A27JAVUZLL7FFP');
-    define ('MARKETPLACE_ID', 'A1PA6795UKMFR9');
+    define ('MERCHANT_ID', $row["SellerID"]);
+    define ('MARKETPLACE_ID', $row["MarketplaceID"]);
 
 
    /************************************************************************

@@ -3,7 +3,7 @@
 include("mCon.php");
         
 $dbh = new PDO ("sqlsrv:Server=$hostname;Database=$dbname","$dbusername","$pw");
-$sql = "SELECT usernameid, username, forename, password, lastname, mail, salutation, birthday, street, place, postCode, aboutYou, phoneNumber
+$sql = "SELECT usernameid, username, forename, password, lastname, mail, salutation, birthday, street, place, postCode, aboutYou, phoneNumber, userImage
                 FROM tUser WHERE username =  '" . $_SESSION['adminusername'] . "'";
     //echo $sql;
 foreach ($dbh->query($sql) as $row) {
@@ -72,7 +72,7 @@ foreach ($dbh->query($sql) as $row) {
                             <div class="row form-group">
                                 <div class="col col-md-3"><label for="password-input" class=" form-control-label">Passwort</label></div>
                                 <div class="col-12 col-md-9"><input type="password" id="password-input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password-input" placeholder="Passwort" class="form-control"  value="<?php echo $row["password"]; ?>"><small class="form-text text-muted">
-                                <span id="length" class="invalid">Mindestens 8 Zeichen</span>, <span id="letter" class="invalid">Kleinbuchstaben</span>, <span id="capital" class="invalid">Großbuchstaben</span> und <span id="number" class="invalid">Zahlen</span> 
+                                <p id="requirement"><span id="length" class="invalid">Mindestens 8 Zeichen</span>, <span id="letter" class="invalid">Kleinbuchstaben</span>, <span id="capital" class="invalid">Großbuchstaben</span> und <span id="number" class="invalid">Zahlen</span></p> 
                                 </small></div>
                                 <!-- <p id="letter" class="invalid"><b>Kleinbuchstaben</b></p>
                                 <p id="capital" class="invalid"><b>Großbuchstaben</b></p>
@@ -87,8 +87,13 @@ foreach ($dbh->query($sql) as $row) {
                                 <div class="col col-md-3"><label for="text-input" class=" form-control-label">Telefonnummer</label></div>
                                 <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Telefonnummer" class="form-control" value="<?php echo $row["phoneNumber"]; ?>"><small class="form-text text-muted">Bitte hinterlege deine Telefonnummer</small></div>
                             </div>
+                            <form method="post" action="" enctype="multipart/form-data">
+                                    <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Hochladen</button>
+                                    <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Daten löschen</button>
+                                </form>
                         </div>
                     </div>
+                    
                 </div>
                     <!-- right side -->
                     <div class="col-lg-6">
@@ -98,15 +103,17 @@ foreach ($dbh->query($sql) as $row) {
                             </div>
                             <div class="card-body card-block">
                                 <div id="divProfilpicture">
-                                    <img id="profilpicture" src="images/male.png">
+                                    <img id="profilpicture" src="<?php echo $row["userImage"];?>">
                                 </div>
                                 <!-- <button type="button" id="btnUploadProfilpicture" class="btn btn-success btn-sm"><i class="fa fa-upload"></i>&nbsp; Success</button> -->
-                                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"
-                                enctype="multipart/form-data">
-                                    <input id="btnUploadProfilpicture" type="file" name="img" size="40" value=""><p>
-                                    <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Success</button>
+                                <form method="post" action="assets/logic/mUploadImages.php" enctype="multipart/form-data">
+                                    <input id="btnUploadProfilpicture" type="file" name="datei" size="40" value=""><p>
+                                    <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Hochladen</button>
                                 </form>
                             </div>
+                            <?php
+                                
+                            ?>
                         </div>
                     </div>
                 </div>

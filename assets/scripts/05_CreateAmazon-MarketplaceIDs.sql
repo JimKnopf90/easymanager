@@ -13,7 +13,8 @@ CREATE TABLE [dbo].[tAmazonAccess](
 	[MWSAuthToken] [varchar](150) NOT NULL,
 	[AWSAccesKeyID] [varchar](150) NOT NULL,
 	[SecretKey] [varchar](150) NOT NULL,
-	[MarketplaceID] [varchar](150) NOT NULL
+	[MarketplaceID] [varchar](150) NOT NULL,
+	[Sellername] [varchar](150) NULL
 ) ON [PRIMARY]
 GO
 

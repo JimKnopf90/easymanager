@@ -16,7 +16,7 @@ if(isset($_SESSION["adminusername"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.png">
 
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -59,14 +59,14 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Amazon</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="amazon-preisoptimierung.php">Preisoptimierung</a></li>
+                            <li><i class="fa fa-puzzle-piece"></i><a href="amazonPreisoptimierung.php">Preisoptimierung</a></li>
                             <!-- <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li> -->
                             <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>-->
                             <li><i class="fa fa-share-square-o"></i><a href="#">Strategien</a></li>
                             <li><i class="fa fa-id-card-o"></i><a href="#">Kategorien</a></li> 
                             <li><i class="fa ti-export"></i><a href="#">Im- und Export</a></li>
                             <li><i class="fa fa-spinner"></i><a href="#">Bestseller</a></li>
-                            <li><i class="fa fa-fire"></i><a href="amazon-marketplace-login.php">Marketplace ID</a></li>
+                            <!--<li><i class="fa fa-fire"></i><a href="amazon-marketplace-login.php">Marketplace ID</a></li>-->
                             <!-- <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li> -->
                             <!-- <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li> -->
                             <!-- <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li> -->
@@ -125,18 +125,19 @@ if(isset($_SESSION["adminusername"])) {
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User-Verwaltung</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-user"></i><a href="user.php">Benutzer</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="berechtigungen.php">Berechtigungen</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="authority.php">Berechtigungen</a></li>
                         </ul>
                     </li>
                     <!-- <li>
                         <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
                     </li> -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Parameter</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>E-Commerce</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="versandklassen.php">Versandklassen</a></li>
-                            <li><i class="menu-icon fa fa-area-chart"></i><a href="lagerbestand.php">Lagerbestand</a></li>
-                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="products.php">Produktübersicht</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="amazonMarketplaceLogin.php">Amazon Einstellungen</a></li>
+                            
+
+                            <!-- <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li> -->
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -166,15 +167,36 @@ if(isset($_SESSION["adminusername"])) {
                             <li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>
                         </ul>
                     </li> -->
+                    <h3 class="menu-title">Einstellungen & Übersicht</h3><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Globale Einstellungen</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="shippingClass.php">Versandklassen</a></li>
+                            
+                            <!-- <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>-->
+                            <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
+                            <!-- <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Globale Übersicht</a>
+                        <ul class="sub-menu children dropdown-menu">                            
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="products.php">Produktübersicht</a></li>
+                        </ul>
+                    </li>
                     <h3 class="menu-title">Extras</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="admin-login.php">Login</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="repository.php">Lagerbestand</a></li>
                             <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li> -->
+                            
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="forget-password.php">Forget Pass</a></li>
                         </ul>
                     </li>
+                    
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
