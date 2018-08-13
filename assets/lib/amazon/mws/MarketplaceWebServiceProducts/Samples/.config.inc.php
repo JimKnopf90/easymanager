@@ -15,7 +15,7 @@
     * All MWS requests must contain a User-Agent header. The application
     * name and version defined below are used in creating this value.
     ***********************************************************************/
-define('APPLICATION_NAME', $row["Sellername"]);
+    define('APPLICATION_NAME', $row["Sellername"]);
     define('APPLICATION_VERSION', '1.0.0');
 
    /************************************************************************

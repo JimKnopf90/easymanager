@@ -18,11 +18,7 @@ $sql = "SELECT artikelbezeichnung, artikelbeschreibung,	angebotsnummer,	haendler
 	    preisProStueckohneSteuer4, preisProStueckohneSteuer5
 	    FROM tAmazonInventory";
 
-echo '<div class="card">';
-echo '<div class="card-header">';
-echo '<strong class="card-title">Preisoptimierung von Amazon Artikeln</strong>';
-echo '</div>';
-echo '<div class="card-body">';
+
 
 echo '<table id="bootstrap-data-table" class="table table-striped table-bordered">';
     echo '<thead>';
@@ -47,17 +43,10 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
     foreach ($dbh->query($sql) as $row) { 
 
         echo '<tr>';
-<<<<<<< HEAD
             echo '<td>' . $row["haendlerSKU"] . '</td>';
             echo '<td><a href="#">' . $row["asin1"]. '</a></td>';
             echo '<td>' . $row["artikelbezeichnung"] . '</td>';
             echo '<td>' . $row["menge"] . '</td>';
-=======
-            echo '<td>AM18-07-25-01</td>';
-            echo '<td><a href="https://www.amazon.de/dp/B06W9KWLPY">B06W9KWLPY</a></td>';
-            echo '<td>' . $row["cName"] . '</td>';
-            echo '<td>54</td>';
->>>>>>> e1fd5f032247d259b32bdaca9f25b06feed6eb62
             echo '<td>4,49</td>';
             echo '<td>5,49 €</td>';
             echo '<td>' . $row["preis"] . '</td>';
@@ -71,9 +60,8 @@ echo '<table id="bootstrap-data-table" class="table table-striped table-bordered
   
     echo '</tbody>';
 echo '</table>';
-echo '</div>';
-echo '</div>';
-echo '</div>';   
+
+
 
 
 

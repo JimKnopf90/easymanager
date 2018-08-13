@@ -620,6 +620,16 @@ header .form-inline {
   font-size: 30px;
 }
 
+#update{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  color: #2159a6;
+  font-size: 30px;
+}
+
 #btnEditUser{
   background-color: transparent;
   border: none;

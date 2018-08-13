@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amazonPreisoptimierung.php" afterPath="$PROJECT_DIR$/amazonPreisoptimierung.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" afterPath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" afterPath="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +37,8 @@
       <file leaf-file-name="GetReportSample.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="47" />
+            <state relative-caret-position="51">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <marker date="1534093526279" expanded="true" signature="6168:8543" ph="INSERT INTO tAmazonInventory... " />
               </folding>
@@ -41,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".config.inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".config.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +59,8 @@
       <file leaf-file-name="mAmazonAccessKeys.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccessKeys.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1534175389900" expanded="true" signature="143:260" ph="SELECT Selle... tAmazonAccess" />
               </folding>
@@ -63,11 +68,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".config.inc.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php">
+      <file leaf-file-name="mAmazonProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <marker date="1534181013058" expanded="true" signature="162:168" ph="SELECT Tabel... kKategorie" />
+                <marker date="1534181013058" expanded="true" signature="162:1075" ph="SELECT artik... tAmazonInventory" />
+                <marker date="1534181013058" expanded="true" signature="1723:2322" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mCon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mCon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazonPreisoptimierung.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amazonPreisoptimierung.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="371" column="145" lean-forward="false" selection-start-line="371" selection-start-column="145" selection-end-line="371" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mAmazonGetReport.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1534182783571" expanded="true" signature="2878:5253" ph="INSERT INTO tAmazonInventory... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="700" column="42" lean-forward="false" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -85,10 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bestse</find>
-      <find>bestsel</find>
-      <find>succes</find>
-      <find>jquer</find>
       <find>mein</find>
       <find>dashboard</find>
       <find>logou</find>
@@ -115,6 +162,10 @@
       <find>vorwahl</find>
       <find>10468</find>
       <find>seller</find>
+      <find>btnEditUser</find>
+      <find>card-head</find>
+      <find>edit</find>
+      <find>upda</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,11 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" />
-        <option value="$PROJECT_DIR$/tables-data.html" />
-        <option value="$PROJECT_DIR$/assets/js/lib/data-table/dataTables.bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/ui-modals.html" />
-        <option value="$PROJECT_DIR$/assets/logic/mUserCreate.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserDelete.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserEdit.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserSelect.php" />
@@ -136,7 +182,6 @@
         <option value="$PROJECT_DIR$/page-login.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
         <option value="$PROJECT_DIR$/images/myProfile.php" />
         <option value="$PROJECT_DIR$/user.php" />
@@ -170,10 +215,16 @@
         <option value="$PROJECT_DIR$/assets/js/passwortabfrage.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceReports/Samples/GetReportSample.php" />
-        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php" />
         <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php" />
-        <option value="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" />
         <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" />
+        <option value="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/amazonPreisoptimierung.php" />
+        <option value="$PROJECT_DIR$/assets/logic/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php" />
       </list>
     </option>
   </component>
@@ -261,24 +312,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="logic" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -306,44 +339,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mws" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MarketplaceWebServiceProducts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="easymanager" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mws" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MarketplaceWebServiceProducts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Samples" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,6 +372,58 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarketplaceWebService" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -391,11 +438,13 @@
     <property name="Constants" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\easymanager\assets\lib\amazon\mws\MarketplaceWebService\Samples" />
+      <recent name="C:\xampp\htdocs\easymanager\assets\lib\amazon\mws\MarketplaceWebService" />
+      <recent name="C:\xampp\htdocs\easymanager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\easymanager\assets\logic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\easymanager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -503,12 +552,12 @@
       <workItem from="1533982736786" duration="11933000" />
       <workItem from="1534072268599" duration="6924000" />
       <workItem from="1534087279493" duration="5566000" />
-      <workItem from="1534175783130" duration="2364000" />
+      <workItem from="1534175783130" duration="5130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137287000" />
+    <option name="totallyTimeSpent" value="140053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +570,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072916" sideWeight="0.49664992" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,7 +592,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="96" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SubmitFeedSample.php">
@@ -584,10 +632,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Samples/SubmitFeedSample.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Samples/.config.inc.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/ResponseMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/ResponseHeaderMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary_old2011/src/MarketplaceWebServiceProducts/Model/ResponseMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Client.php" />
@@ -714,14 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1316" column="0" lean-forward="false" selection-start-line="1316" selection-start-column="0" selection-end-line="1316" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Model/GetReportResponse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -740,18 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1534175390400" expanded="true" signature="162:168" ph="SELECT Tabel... kKategorie" />
-            <marker date="1534175390400" expanded="true" signature="162:1075" ph="SELECT artik... tAmazonInventory" />
-            <marker date="1534175390400" expanded="true" signature="1911:2796" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/amazon-preisoptimierung.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,14 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mCon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -794,38 +810,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccessKeys.php">
+    <entry file="file://$PROJECT_DIR$/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <marker date="1534175389900" expanded="true" signature="143:260" ph="SELECT Selle... tAmazonAccess" />
-          </folding>
+        <state relative-caret-position="273">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <marker date="1534093526279" expanded="true" signature="6168:8543" ph="INSERT INTO tAmazonInventory... " />
-          </folding>
+        <state relative-caret-position="524">
+          <caret line="629" column="18" lean-forward="false" selection-start-line="629" selection-start-column="18" selection-end-line="629" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php">
+    <entry file="file://$PROJECT_DIR$/amazonPreisoptimierung.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="320">
+          <caret line="371" column="145" lean-forward="false" selection-start-line="371" selection-start-column="145" selection-end-line="371" selection-end-column="145" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="700" column="42" lean-forward="false" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1534181013058" expanded="true" signature="162:168" ph="SELECT Tabel... kKategorie" />
+            <marker date="1534181013058" expanded="true" signature="162:1075" ph="SELECT artik... tAmazonInventory" />
+            <marker date="1534181013058" expanded="true" signature="1723:2322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccessKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1534175389900" expanded="true" signature="143:260" ph="SELECT Selle... tAmazonAccess" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mCon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1534093526279" expanded="true" signature="6168:8543" ph="INSERT INTO tAmazonInventory... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1534182783571" expanded="true" signature="2878:5253" ph="INSERT INTO tAmazonInventory... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
