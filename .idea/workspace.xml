@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40cad0e3-8c58-4259-9bd7-dd15fbb42a14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/passwortabfrage.js" afterPath="$PROJECT_DIR$/assets/js/passwortabfrage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php" afterPath="$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mAmazonMarketplaceIDLoad.php" afterPath="$PROJECT_DIR$/assets/logic/mAmazonMarketplaceIDLoad.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mBestSellingItems.php" afterPath="$PROJECT_DIR$/assets/logic/mBestSellingItems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mMyProfile.php" afterPath="$PROJECT_DIR$/assets/logic/mMyProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amazonPreisoptimierung.php" afterPath="$PROJECT_DIR$/amazonPreisoptimierung.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" afterPath="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" afterPath="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,281 +34,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="GetReportSample.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="372" column="47" lean-forward="false" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="47" />
+            <state relative-caret-position="51">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1533829010749" expanded="true" signature="62:38260" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="4336:5850" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="4579:5824" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="5915:7437" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="6161:7411" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="7502:7986" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="7747:7960" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="8051:8545" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="8290:8519" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="8696:9236" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="8949:9210" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="9262:9389" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="9456:10135" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="9707:10109" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="10200:10943" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="10454:10917" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="11008:11828" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="11259:11802" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="11855:12442" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="12585:13249" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="12828:13223" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13464:36895" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13532:19720" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13571:19701" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13611:18690" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13760:18667" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13903:14263" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="13958:14232" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="14328:15599" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="14503:14661" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="14746:15568" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="14902:15056" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="15141:15294" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="15379:15535" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="15659:18640" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="15750:16050" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="16130:18609" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="16279:16781" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="16460:16748" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="16866:17381" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="17047:17348" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="17466:17974" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="17647:17941" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="18059:18576" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="18240:18543" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="18730:19682" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="18795:19658" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="18922:19061" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="19124:19631" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="19794:20408" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="19829:20039" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="19882:20020" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="19927:19997" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20074:20393" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20128:20374" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20173:20351" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20232:20324" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20444:36866" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20481:20946" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20573:20927" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="20810:20904" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="20861:20868" ph="×" />
-                <marker date="1533829010749" expanded="true" signature="20991:22407" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21053:22388" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21102:22364" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21161:21952" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21326:21422" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21515:21921" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21583:21886" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="21994:22085" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="22216:22228" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22241:22336" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22477:23892" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22539:23873" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22588:23850" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22647:23438" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="22812:22908" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="23001:23407" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="23069:23372" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="23480:23571" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="23702:23714" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="23727:23822" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="23962:25377" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24024:25358" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24073:25149" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24132:24923" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24297:24393" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24486:24892" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24554:24857" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="24965:25056" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="25215:25227" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25240:25335" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25447:26862" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25509:26843" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25558:26820" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25617:26408" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25782:25878" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="25971:26377" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="26039:26342" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="26450:26541" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="26672:26684" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="26697:26792" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="26932:27528" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="26982:27474" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27058:27451" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27087:27243" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27272:27425" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27586:28181" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27635:28127" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27710:28104" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27739:27895" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="27924:28078" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28239:28836" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28289:28782" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28365:28759" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28394:28551" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28580:28733" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28894:29499" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="28947:29445" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29026:29422" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29055:29213" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29242:29396" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29547:34286" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29582:34267" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29626:31499" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29668:31271" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="29719:29908" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30015:31226" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30292:31191" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30404:31152" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30486:30632" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30721:30880" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="30962:31109" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="31340:31471" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="31404:31417" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="31545:34244" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="31574:34217" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="31607:32086" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="31824:31836" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="31837:32052" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="31938:31949" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="32142:32618" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="32359:32371" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="32372:32584" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="32470:32481" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="32651:33133" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="32871:32883" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="32884:33099" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="32985:32996" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="33189:33670" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="33409:33421" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="33422:33636" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="33522:33533" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="33726:34187" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="33936:33948" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="33949:34153" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="34039:34050" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34330:34542" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34369:34523" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34400:34495" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34588:35171" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34623:35152" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34667:35129" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34721:35102" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="34894:35071" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35217:35797" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35252:35778" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35296:35755" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35350:35728" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35522:35697" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35842:36433" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35877:36414" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35921:36391" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="35975:36364" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="36155:36333" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="36469:36849" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="36504:36797" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="36551:36617" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="36665:36774" ph="..." />
-                <marker date="1533829010749" expanded="false" signature="36726:36740" ph="..." />
-                <marker date="1533829010749" expanded="true" signature="37715:38205" ph="{...}" />
-                <marker date="1533829010749" expanded="true" signature="37785:38192" ph="{&quot;map&quot;: 'world_en'...}" />
-                <marker date="1533829010749" expanded="true" signature="38268:38323" ph="..." />
+                <marker date="1534093526279" expanded="true" signature="6168:8543" ph="INSERT INTO tAmazonInventory... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mBestSellingItems.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
+      <file leaf-file-name=".config.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding>
-                <marker date="1533828434517" expanded="true" signature="138:608" ph="SELECT TOP(1... cArtNr" />
-                <marker date="1533828434517" expanded="true" signature="266:438" ph="SELECT cArtN... tbestellpos" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mAmazonAccess.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="58" />
-              <folding>
-                <marker date="1533829010731" expanded="true" signature="154:284" ph="SELECT COUNT... tUser" />
-                <marker date="1533829010731" expanded="true" signature="508:563" ph="SELECT usern... tUser" />
-                <marker date="1533829010731" expanded="true" signature="870:913" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mAmazonMarketplaceIDLoad.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonMarketplaceIDLoad.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding>
-                <marker date="1533829489894" expanded="true" signature="143:247" ph="SELECT Selle... tAmazonAccess" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passwortabfrage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/passwortabfrage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mUserLoad.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
+      <file leaf-file-name="mAmazonAccessKeys.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccessKeys.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1531851648286" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
+                <marker date="1534175389900" expanded="true" signature="143:260" ph="SELECT Selle... tAmazonAccess" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mMyProfile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mMyProfile.php">
+      <file leaf-file-name="mAmazonProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="82" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <marker date="1533830165571" expanded="true" signature="134:349" ph="SELECT usern... tUser" />
+                <marker date="1534181013058" expanded="true" signature="162:168" ph="SELECT Tabel... kKategorie" />
+                <marker date="1534181013058" expanded="true" signature="162:1075" ph="SELECT artik... tAmazonInventory" />
+                <marker date="1534181013058" expanded="true" signature="1723:2322" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mMyProfil.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/logic/mMyProfil.php">
+      <file leaf-file-name="mCon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/logic/mCon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazonPreisoptimierung.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amazonPreisoptimierung.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="371" column="145" lean-forward="false" selection-start-line="371" selection-start-column="145" selection-end-line="371" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mAmazonGetReport.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1532866675902" expanded="true" signature="119:156" ph="SELECT * FRO... tUser" />
+                <marker date="1534182783571" expanded="true" signature="2878:5253" ph="INSERT INTO tAmazonInventory... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="700" column="42" lean-forward="false" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -325,11 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bests</find>
-      <find>bestse</find>
-      <find>bestsel</find>
-      <find>succes</find>
-      <find>jquer</find>
       <find>mein</find>
       <find>dashboard</find>
       <find>logou</find>
@@ -353,8 +159,13 @@
       <find>Bestseller</find>
       <find>inclu</find>
       <find>Artiklebezeichnung</find>
-      <find>10468</find>
       <find>vorwahl</find>
+      <find>10468</find>
+      <find>seller</find>
+      <find>btnEditUser</find>
+      <find>card-head</find>
+      <find>edit</find>
+      <find>upda</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -363,13 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/charts-peity.html" />
-        <option value="$PROJECT_DIR$/user.html" />
-        <option value="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" />
-        <option value="$PROJECT_DIR$/tables-data.html" />
-        <option value="$PROJECT_DIR$/assets/js/lib/data-table/dataTables.bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/ui-modals.html" />
-        <option value="$PROJECT_DIR$/assets/logic/mUserCreate.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserDelete.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserEdit.php" />
         <option value="$PROJECT_DIR$/assets/logic/mUserSelect.php" />
@@ -378,7 +182,6 @@
         <option value="$PROJECT_DIR$/page-login.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/lib/data-table/datatables-init.js" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/logic/mUserLoad.php" />
         <option value="$PROJECT_DIR$/images/myProfile.php" />
         <option value="$PROJECT_DIR$/user.php" />
@@ -406,11 +209,22 @@
         <option value="$PROJECT_DIR$/assets/logic/mLoginAdmin.php" />
         <option value="$PROJECT_DIR$/admin-login.php" />
         <option value="$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/logic/mBestSellingItems.php" />
         <option value="$PROJECT_DIR$/assets/logic/mAmazonMarketplaceIDLoad.php" />
         <option value="$PROJECT_DIR$/assets/logic/mMyProfile.php" />
         <option value="$PROJECT_DIR$/assets/js/passwortabfrage.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceReports/Samples/GetReportSample.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php" />
+        <option value="$PROJECT_DIR$/assets/logic/mAmazonProducts.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/amazonPreisoptimierung.php" />
+        <option value="$PROJECT_DIR$/assets/logic/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonLoadProducts.php" />
+        <option value="$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php" />
       </list>
     </option>
   </component>
@@ -457,6 +271,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -515,13 +330,102 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarketplaceWebService" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarketplaceWebService" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easymanager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,13 +435,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../stars" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="Constants" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\easymanager\assets\lib\amazon\mws\MarketplaceWebService\Samples" />
+      <recent name="C:\xampp\htdocs\easymanager\assets\lib\amazon\mws\MarketplaceWebService" />
+      <recent name="C:\xampp\htdocs\easymanager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\easymanager\assets\logic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\easymanager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -641,12 +548,16 @@
       <workItem from="1533399531530" duration="20290000" />
       <workItem from="1533570770850" duration="6815000" />
       <workItem from="1533741110339" duration="3588000" />
-      <workItem from="1533826710039" duration="3527000" />
+      <workItem from="1533826710039" duration="4774000" />
+      <workItem from="1533982736786" duration="11933000" />
+      <workItem from="1534072268599" duration="6924000" />
+      <workItem from="1534087279493" duration="5566000" />
+      <workItem from="1534175783130" duration="5130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109253000" />
+    <option name="totallyTimeSpent" value="140053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,7 +570,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072916" sideWeight="0.49664992" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -682,7 +592,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="63" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SubmitFeedSample.php">
@@ -690,10 +600,22 @@
         <watch expression="$this-&gt;fields['Parameters']['FieldValue']" language="PHP" />
         <watch expression="count (fields['Parameters']['FieldValue']) &gt; 0" language="PHP" />
       </configuration>
+      <configuration name="amazon-preisoptimierung.php">
+        <watch expression="$dbh-&gt;query($sql)" language="PHP" />
+      </configuration>
       <configuration name="mLoginAdmin.php">
         <watch expression="$result" language="PHP" />
         <watch expression="$tries" language="PHP" />
         <watch expression="$tries == null" language="PHP" />
+      </configuration>
+      <configuration name="GetReportSample.php">
+        <watch expression="$sql" language="PHP" />
+        <watch expression="$result" language="PHP" />
+        <watch expression="sizeof($parts)" language="PHP" />
+        <watch expression="$parts" language="PHP" />
+        <watch expression="$i" language="PHP" />
+        <watch expression="$dbh-&gt;exec($sql)" language="PHP" />
+        <watch expression="$str" language="PHP" />
       </configuration>
       <configuration name="GetLowestOfferListingsForASINSample.php">
         <watch expression="$asin" language="PHP" />
@@ -710,62 +632,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../stars/sites/admin-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mSession.php" />
-    <entry file="file://$PROJECT_DIR$/assets/logic/mRepricer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/cSession.php" />
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserCreate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1837">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="39" column="173" lean-forward="false" selection-start-line="39" selection-start-column="173" selection-end-line="39" selection-end-column="173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mLoginTries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetProductCategoriesForASINSample.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/IdList.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/SubmitFeedRequest.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/RequestType.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/SubmitFeedResult.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/FeedSubmissionInfo.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/SubmitFeedResponse.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/ContentType.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Samples/SubmitFeedSample.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Samples/.config.inc.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model.php" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/ResponseMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Model/ResponseHeaderMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary_old2011/src/MarketplaceWebServiceProducts/Model/ResponseMetadata.php" />
     <entry file="file://$PROJECT_DIR$/assets/lib/MarketplaceWebService/Client.php" />
@@ -803,13 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1533573313884" expanded="true" signature="154:248" ph="SELECT COUNT... tUser" />
-            <marker date="1533573313884" expanded="true" signature="154:263" ph="SELECT COUNT... tUser" />
-            <marker date="1533573313884" expanded="true" signature="487:542" ph="SELECT usern... tUser" />
-            <marker date="1533573313884" expanded="true" signature="833:875" ph="DELETE FROM " />
-            <marker date="1533573313884" expanded="true" signature="833:876" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,263 +676,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Model/GetLowestOfferListingsForASINResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Model/ResponseHeaderMetadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/test1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="140" lean-forward="false" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="372" column="47" lean-forward="false" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="47" />
-          <folding>
-            <marker date="1533829010749" expanded="true" signature="62:38260" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="4336:5850" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="4579:5824" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="5915:7437" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="6161:7411" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="7502:7986" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="7747:7960" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="8051:8545" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="8290:8519" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="8696:9236" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="8949:9210" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="9262:9389" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="9456:10135" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="9707:10109" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="10200:10943" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="10454:10917" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="11008:11828" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="11259:11802" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="11855:12442" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="12585:13249" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="12828:13223" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13464:36895" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13532:19720" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13571:19701" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13611:18690" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13760:18667" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13903:14263" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="13958:14232" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="14328:15599" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="14503:14661" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="14746:15568" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="14902:15056" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="15141:15294" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="15379:15535" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="15659:18640" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="15750:16050" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="16130:18609" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="16279:16781" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="16460:16748" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="16866:17381" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="17047:17348" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="17466:17974" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="17647:17941" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="18059:18576" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="18240:18543" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="18730:19682" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="18795:19658" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="18922:19061" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="19124:19631" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="19794:20408" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="19829:20039" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="19882:20020" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="19927:19997" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20074:20393" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20128:20374" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20173:20351" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20232:20324" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20444:36866" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20481:20946" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20573:20927" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="20810:20904" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="20861:20868" ph="×" />
-            <marker date="1533829010749" expanded="true" signature="20991:22407" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21053:22388" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21102:22364" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21161:21952" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21326:21422" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21515:21921" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21583:21886" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="21994:22085" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="22216:22228" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22241:22336" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22477:23892" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22539:23873" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22588:23850" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22647:23438" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="22812:22908" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="23001:23407" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="23069:23372" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="23480:23571" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="23702:23714" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="23727:23822" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="23962:25377" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24024:25358" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24073:25149" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24132:24923" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24297:24393" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24486:24892" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24554:24857" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="24965:25056" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="25215:25227" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25240:25335" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25447:26862" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25509:26843" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25558:26820" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25617:26408" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25782:25878" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="25971:26377" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="26039:26342" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="26450:26541" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="26672:26684" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="26697:26792" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="26932:27528" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="26982:27474" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27058:27451" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27087:27243" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27272:27425" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27586:28181" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27635:28127" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27710:28104" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27739:27895" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="27924:28078" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28239:28836" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28289:28782" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28365:28759" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28394:28551" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28580:28733" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28894:29499" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="28947:29445" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29026:29422" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29055:29213" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29242:29396" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29547:34286" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29582:34267" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29626:31499" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29668:31271" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="29719:29908" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30015:31226" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30292:31191" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30404:31152" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30486:30632" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30721:30880" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="30962:31109" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="31340:31471" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="31404:31417" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="31545:34244" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="31574:34217" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="31607:32086" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="31824:31836" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="31837:32052" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="31938:31949" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="32142:32618" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="32359:32371" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="32372:32584" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="32470:32481" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="32651:33133" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="32871:32883" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="32884:33099" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="32985:32996" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="33189:33670" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="33409:33421" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="33422:33636" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="33522:33533" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="33726:34187" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="33936:33948" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="33949:34153" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="34039:34050" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34330:34542" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34369:34523" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34400:34495" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34588:35171" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34623:35152" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34667:35129" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34721:35102" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="34894:35071" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35217:35797" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35252:35778" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35296:35755" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35350:35728" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35522:35697" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35842:36433" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35877:36414" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35921:36391" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="35975:36364" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="36155:36333" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="36469:36849" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="36504:36797" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="36551:36617" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="36665:36774" ph="..." />
-            <marker date="1533829010749" expanded="false" signature="36726:36740" ph="..." />
-            <marker date="1533829010749" expanded="true" signature="37715:38205" ph="{...}" />
-            <marker date="1533829010749" expanded="true" signature="37785:38192" ph="{&quot;map&quot;: 'world_en'...}" />
-            <marker date="1533829010749" expanded="true" signature="38268:38323" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <marker date="1533828434517" expanded="true" signature="138:608" ph="SELECT TOP(1... cArtNr" />
-            <marker date="1533828434517" expanded="true" signature="266:438" ph="SELECT cArtN... tbestellpos" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <marker date="1533829010731" expanded="true" signature="154:284" ph="SELECT COUNT... tUser" />
-            <marker date="1533829010731" expanded="true" signature="508:563" ph="SELECT usern... tUser" />
-            <marker date="1533829010731" expanded="true" signature="870:913" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Model/GetLowestOfferListingsForASINResponse.php" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Model/ResponseHeaderMetadata.php" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/test1.xml" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/MWSProductsPHPClientLibrary/src/MarketplaceWebServiceProducts/Client.php" />
     <entry file="file://$PROJECT_DIR$/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1082,23 +692,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/02_CreateUser.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/passwortabfrage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonMarketplaceIDLoad.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <marker date="1533829489894" expanded="true" signature="143:247" ph="SELECT Selle... tAmazonAccess" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
+    <entry file="file://$PROJECT_DIR$/assets/logic/mBestSellingItems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1531851648286" expanded="true" signature="143:232" ph="SELECT usern... tUser" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1106,9 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1532866675902" expanded="true" signature="119:156" ph="SELECT * FRO... tUser" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,16 +731,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserLoad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="347" column="65" lean-forward="false" selection-start-line="347" selection-start-column="65" selection-end-line="347" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceReports/Samples/GetReportSample.php" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceReports/Samples/.config.inc.php" />
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/GetLowestOfferListingsForASINSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Model/GetReportResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1533830165571" expanded="true" signature="134:349" ph="SELECT usern... tUser" />
+            <marker date="1531575612983" expanded="true" signature="227:482" ph="INSERT INTO tUser... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/passwortabfrage.js">
+    <entry file="file://$PROJECT_DIR$/amazon-preisoptimierung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="36" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mUserChange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="80" />
+          <folding>
+            <marker date="1531814775131" expanded="true" signature="129:265" ph="UPDATE tUser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/05_CreateAmazon-MarketplaceIDs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="629" column="18" lean-forward="false" selection-start-line="629" selection-start-column="18" selection-end-line="629" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amazonPreisoptimierung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="371" column="145" lean-forward="false" selection-start-line="371" selection-start-column="145" selection-end-line="371" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebServiceProducts/Samples/.config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="700" column="42" lean-forward="false" selection-start-line="700" selection-start-column="21" selection-end-line="700" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1534181013058" expanded="true" signature="162:168" ph="SELECT Tabel... kKategorie" />
+            <marker date="1534181013058" expanded="true" signature="162:1075" ph="SELECT artik... tAmazonInventory" />
+            <marker date="1534181013058" expanded="true" signature="1723:2322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mAmazonAccessKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1534175389900" expanded="true" signature="143:260" ph="SELECT Selle... tAmazonAccess" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logic/mCon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/GetReportSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1534093526279" expanded="true" signature="6168:8543" ph="INSERT INTO tAmazonInventory... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/mAmazonGetReport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1534182783571" expanded="true" signature="2878:5253" ph="INSERT INTO tAmazonInventory... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/amazon/mws/MarketplaceWebService/Samples/.config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

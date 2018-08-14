@@ -367,7 +367,7 @@ if(isset($_SESSION["adminusername"])) {
                         <p class="text-light">Members online</p>
 
                         <div class="chart-wrapper px-0" style="height:70px;" height="70">
-                            <canvas id="widgetChart1"></canvas>
+                            <canvas id="widgetChart1"></canvas>/*
                         </div>
 
                     </div>

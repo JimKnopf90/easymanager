@@ -29,6 +29,7 @@ if(isset($_SESSION["adminusername"])) {
     <link rel="stylesheet" href="assets/scss/style.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 
@@ -365,16 +366,18 @@ if(isset($_SESSION["adminusername"])) {
                 <div class="row">
 
                 <div class="col-md-12">
-                    <!-- <div class="card">
+                    <div class="card">
                         <div class="card-header">
-                            <strong class="card-title">Lagerbestandsübersicht</strong>
+                            <strong class="card-title">Preisoptimierung von Amazon Artikeln</strong>
+                            <button id="btnEditUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="Amazon aktualisieren" data-target="#mediumModalEditUser"><i id="update" class="fa fa-cloud-download"></i></button>
+
                         </div>
-                        <div class="card-body">-->
+                        <div class="card-body">
                             <?php
 	                            include("assets/logic/mAmazonProducts.php");
 	                        ?>
                         
-                   <!-- </div> -->
+                    </div>
                 </div>
 
     </div><!-- /#right-panel -->
