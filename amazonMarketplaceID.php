@@ -369,6 +369,7 @@ if(isset($_SESSION["adminusername"])) {
                                 include("assets/logic/mAmazonIDLoad.php");
                             ?>
                             <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Daten Speichern</button>
+                            <button id="btnAddUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="Benutzer anlegen" data-target="#bestätigen"><i id="addUser" class="fa fa-plus-circle"></i></button>
                         </div>
                         
                 </div>
@@ -404,8 +405,46 @@ if(isset($_SESSION["adminusername"])) {
     <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
     <script src="assets/js/lib/data-table/datatables-init.js"></script>
     
-
-
+<!-- ========================================== ANMELDEN ================================ -->
+            <div class="modal fade" id="bestätigen" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mediumModalLabel">Berechtigung bestätigen</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">Anmeldedaten</div>
+                                    <div class="card-body card-block">
+                                        <form method="post" action="">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                    <input type="text" id="username" name="username" placeholder="Benutzername" class="form-control" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-circle"></i></div>
+                                                    <input type="password" id="password" name="password" placeholder="Passwort" class="form-control" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+                                                <button type="submit" class="btn btn-primary">Bestätigen</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </body>
     </html>
