@@ -3,38 +3,39 @@ session_start();
 if(isset($_SESSION["adminusername"])) {
     ?>
 
-<!doctype html>
-<html lang="de"></html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>easyManager - Benutzer</title>
-    <meta name="description" content="easy Manager - Benutzer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!doctype html>
+    <html lang="de"></html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>easyManager - Mein Profil</title>
+        <meta name="description" content="easy Manager - Mein Profil">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
-    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
-    <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
-    <link rel="stylesheet" href="assets/scss/style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/flag-icon.min.css">
+        <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+        <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
+        <link rel="stylesheet" href="assets/scss/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style-easymanager.css">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-        <!-- Left Panel -->
+    </head>
+    <body>
+            <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
@@ -222,69 +223,69 @@ if(isset($_SESSION["adminusername"])) {
                         </div>
 
                         <div class="dropdown for-notification">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-bell"></i>
-                            <span class="count bg-danger">5</span>
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="notification">
-                            <p class="red">You have 3 Notification</p>
-                            <a class="dropdown-item media bg-flat-color-1" href="#">
-                                <i class="fa fa-check"></i>
-                                <p>Server #1 overloaded.</p>
-                            </a>
-                            <a class="dropdown-item media bg-flat-color-4" href="#">
-                                <i class="fa fa-info"></i>
-                                <p>Server #2 overloaded.</p>
-                            </a>
-                            <a class="dropdown-item media bg-flat-color-5" href="#">
-                                <i class="fa fa-warning"></i>
-                                <p>Server #3 overloaded.</p>
-                            </a>
-                          </div>
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell"></i>
+                                <span class="count bg-danger">5</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="notification">
+                                <p class="red">You have 3 Notification</p>
+                                <a class="dropdown-item media bg-flat-color-1" href="#">
+                                    <i class="fa fa-check"></i>
+                                    <p>Server #1 overloaded.</p>
+                                </a>
+                                <a class="dropdown-item media bg-flat-color-4" href="#">
+                                    <i class="fa fa-info"></i>
+                                    <p>Server #2 overloaded.</p>
+                                </a>
+                                <a class="dropdown-item media bg-flat-color-5" href="#">
+                                    <i class="fa fa-warning"></i>
+                                    <p>Server #3 overloaded.</p>
+                                </a>
+                            </div>
                         </div>
 
                         <div class="dropdown for-message">
-                          <button class="btn btn-secondary dropdown-toggle" type="button"
-                                id="message"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="ti-email"></i>
-                            <span class="count bg-primary">9</span>
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="message">
-                            <p class="red">You have 4 Mails</p>
-                            <a class="dropdown-item media bg-flat-color-1" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/1.jpg"></span>
-                                <span class="message media-body">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    id="message"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="ti-email"></i>
+                                <span class="count bg-primary">9</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="message">
+                                <p class="red">You have 4 Mails</p>
+                                <a class="dropdown-item media bg-flat-color-1" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/1.jpg"></span>
+                                    <span class="message media-body">
                                     <span class="name float-left">Jonathan Smith</span>
                                     <span class="time float-right">Just now</span>
                                         <p>Hello, this is an example msg</p>
                                 </span>
-                            </a>
-                            <a class="dropdown-item media bg-flat-color-4" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/2.jpg"></span>
-                                <span class="message media-body">
+                                </a>
+                                <a class="dropdown-item media bg-flat-color-4" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/2.jpg"></span>
+                                    <span class="message media-body">
                                     <span class="name float-left">Jack Sanders</span>
                                     <span class="time float-right">5 minutes ago</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                                 </span>
-                            </a>
-                            <a class="dropdown-item media bg-flat-color-5" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/3.jpg"></span>
-                                <span class="message media-body">
+                                </a>
+                                <a class="dropdown-item media bg-flat-color-5" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/3.jpg"></span>
+                                    <span class="message media-body">
                                     <span class="name float-left">Cheryl Wheeler</span>
                                     <span class="time float-right">10 minutes ago</span>
                                         <p>Hello, this is an example msg</p>
                                 </span>
-                            </a>
-                            <a class="dropdown-item media bg-flat-color-3" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/4.jpg"></span>
-                                <span class="message media-body">
+                                </a>
+                                <a class="dropdown-item media bg-flat-color-3" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/4.jpg"></span>
+                                    <span class="message media-body">
                                     <span class="name float-left">Rachel Santos</span>
                                     <span class="time float-right">15 minutes ago</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                                 </span>
-                            </a>
-                          </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -336,7 +337,7 @@ if(isset($_SESSION["adminusername"])) {
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Administration</h1>
+                        <h1>Mein Profil</h1>
                     </div>
                 </div>
             </div>
@@ -345,7 +346,7 @@ if(isset($_SESSION["adminusername"])) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="#">Administration</a></li>
-                            <li><a href="#">E-Commerce</a></li>
+                            <li class="#">E-Commerce</li>
                             <li class="active">Amazon Einstellungen</li>
                         </ol>
                     </div>
@@ -353,224 +354,65 @@ if(isset($_SESSION["adminusername"])) {
             </div>
         </div>
 
-        <div class="content mt-3">
+        
+
+           <div class="content mt-3">
             <div class="animated fadeIn">
                 <div class="row">
-
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <strong class="card-title">Amazon Einstellungen</strong>
-                                <button id="btnAddUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID anlegen" data-target="#mediumModalAddUser"><i id="addUser" class="fa fa-plus-circle"></i></button>
-                                <button id="btnDeleteUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID löschen" data-target="#mediumModalDelteUser"><i id="deleteUser" class="fa fa-minus-circle"></i></button>
-                                <button id="btnEditUser" type="button" class="btn btn-secondary mb-1" data-toggle="modal" title="MarketplaceID bearbeiten" data-target="#mediumModalEditUser"><i id="editUser" class="fa fa-pencil"></i></button>
-                            </div>
-
-                            <div class="card-body">
-                                <?php
-                                    include("assets/logic/mAmazonMarketplaceIDLoad.php");
-                                ?>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Anwenderprofil</strong> Einstellungen
                         </div>
-                    </div>
+                        <div class="card-body card-block">
+                            <?php
+                                include("assets/logic/mAmazonIDLoad.php");
+                            ?>
+                            <button type="submit" name="submit" id="btnUploadProfilpicture" class="btn btn-success btn-sm" ><i class="fa fa-upload"></i>&nbsp; Daten Speichern</button>
+                        </div>
+                        
+                </div>
+                    <!-- right side -->
+
                 </div>
             </div><!-- .animated -->
-            <div class="modal fade" id="mediumModalAddUser" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="mediumModalLabel">Seller hinzufügen</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">Seller hinzufügen</div>
-                                    <div class="card-body card-block">
-                                        <form method="post" action="assets/logic/mUserCreate.php">
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                    <input type="text" id="username" name="username" placeholder="Sellername" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-circle"></i></div>
-                                                    <input type="text" id="forename" name="forename" placeholder="SellerID" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-circle-o"></i></div>
-                                                    <input type="text" id="lastname" name="lastname" placeholder="MWSAuthToken" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                                    <input type="text" id="mail" name="mail" placeholder="AWSAccessKeyID" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-asterisk"></i></div>
-                                                    <input type="text" id="password" name="password" placeholder="SecretKey" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-asterisk"></i></div>
-                                                    <input type="text" id="password" name="password" placeholder="Marketplace ID" class="form-control" required="required">
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
-                                                <button type="submit" class="btn btn-primary">Speichern</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="mediumModalDelteUser" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="mediumModalLabel">Benutzer löschen</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                               Datensatz löschen?
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
-                            <button type="button" id="btnDeleteUserReally" class="btn btn-primary">Löschen</button>
-                        </div>
 
-                        </div>
-                    </div>
-                </div>
-            <div class="modal fade" id="mediumModalEditUser" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="mediumModalLabel">Benutzer ändern</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">Benutzer ändern</div>
-                                    <div class="card-body card-block">
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                <input type="text" id="usernameEditUser" name="username" placeholder="Benutzername" class="form-control" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-circle"></i></div>
-                                                <input type="text" id="forenameEditUser" name="forename" placeholder="Vorname" class="form-control" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-circle-o"></i></div>
-                                                <input type="text" id="lastnameEditUser" name="lastname" placeholder="Nachname" class="form-control" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                                <input type="email" id="mailEditUser" name="mail" placeholder="Email" class="form-control" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-asterisk"></i></div>
-                                                <input type="password" id="passwordEditUser" name="password" placeholder="Passwort" class="form-control" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col col-md-3"><label class=" form-control-label">Berechtigung:</label></div>
-                                            <div class="col col-md-9">
-                                                <div class="form-check-inline form-check">
-                                                    <label for="inline-checkbox1" class="form-check-label ">
-                                                        <input type="checkbox" id="chbAdminEditUser" name="roleAdmin" value="1" class="form-check-input">Administration
-                                                    </label>
-                                                    <label for="inline-checkbox2" class="form-check-label ">
-                                                        <input type="checkbox" id="inline-checkbox2EditUser" name="roleCC" value="2" class="form-check-input">Controller Cockpit
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
-                                            <button id="btnSaveEditUser" class="btn btn-primary">Speichern</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div><!-- .content -->
+        </div>
+    </div><!-- .content -->
 
 
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->
 
-
-        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-
-
-        <script src="assets/js/lib/data-table/datatables.min.js"></script>
-        <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
-        <script src="assets/js/lib/data-table/dataTables.buttons.min.js"></script>
-        <script src="assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
-        <script src="assets/js/lib/data-table/jszip.min.js"></script>
-        <script src="assets/js/lib/data-table/pdfmake.min.js"></script>
-        <script src="assets/js/lib/data-table/vfs_fonts.js"></script>
-        <script src="assets/js/lib/data-table/buttons.html5.min.js"></script>
-        <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
-        <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
-        <script src="assets/js/lib/data-table/datatables-init.js"></script>
+    <script src="assets/js/passwortabfrage.js"></script>
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 
 
-        <script src="assets/js/user.js"></script>
+    <script src="assets/js/lib/data-table/datatables.min.js"></script>
+    <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+    <script src="assets/js/lib/data-table/jszip.min.js"></script>
+    <script src="assets/js/lib/data-table/pdfmake.min.js"></script>
+    <script src="assets/js/lib/data-table/vfs_fonts.js"></script>
+    <script src="assets/js/lib/data-table/buttons.html5.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
+    <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
+    <script src="assets/js/lib/data-table/datatables-init.js"></script>
+    
 
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#bootstrap-data-table-export').DataTable();
-            } );
-        </script>
 
+    </body>
+    </html>
 
-</body>
-</html>
+    <?php
 
-<?php
-    } else {
-    header("Location: /easymanager/amazon-marketplace-login.php");
+} else {
+    header("Location: /easymanager/admin-login.php");
 }
 ?>
