@@ -28,9 +28,9 @@ try {
 
     }
     else
-    {
+    { 
         include ("mLoginTries.php");
-        header("Location: ../../amazon-marketplace-login.php?tries=" . $tries[0]['tries']);
+        header("Location: ../../index.php?tries=" . $tries[0]['tries']);
     }
 
 

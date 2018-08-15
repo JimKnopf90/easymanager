@@ -134,8 +134,7 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>E-Commerce</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="amazonMarketplaceLogin.php">Amazon Einstellungen</a></li>
-                            
+                            <li><i class="menu-icon fa fa-sign-in" ></i><a  href="#" data-toggle="modal" data-target="#bestätigen">Amazon Einstellungen</a></li>
 
                             <!-- <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li> -->
                         </ul>
@@ -710,6 +709,48 @@ if(isset($_SESSION["adminusername"])) {
         } )( jQuery );
     </script>
 
+    <!-- ========================================== ANMELDEN ========================================= -->
+
+<div class="modal fade" id="bestätigen" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mediumModalLabel">Berechtigung bestätigen</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">Anmeldedaten</div>
+                                    <div class="card-body card-block">
+                                        <form method="post" action="../easymanager/assets/logic/mAmazonAccess.php">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                    <input type="text" id="username" name="username" placeholder="Benutzername" class="form-control" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-circle"></i></div>
+                                                    <input type="password" id="password" name="password" placeholder="Passwort" class="form-control" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+                                                <button type="submit" class="btn btn-primary">Bestätigen</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ========================================== ANMELDEN ENDE ========================================= -->
 </body>
 </html>
 
@@ -718,6 +759,6 @@ if(isset($_SESSION["adminusername"])) {
 <?php
 
 } else {
-    header("Location: /easymanager/admin-login.php");
+    header("Location: /easymanager/adminLogin.php");
 }
 ?>
