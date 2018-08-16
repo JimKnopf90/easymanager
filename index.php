@@ -754,8 +754,6 @@ if(isset($_SESSION["adminusername"])) {
 </body>
 </html>
 
-
-
 <?php
 
 } else {

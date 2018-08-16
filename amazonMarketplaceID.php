@@ -35,7 +35,7 @@ if(isset($_SESSION["adminusername"])) {
 
     </head>
     <body>
-            <!-- Left Panel -->
+        <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
@@ -45,7 +45,7 @@ if(isset($_SESSION["adminusername"])) {
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="images/favicon.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -132,8 +132,7 @@ if(isset($_SESSION["adminusername"])) {
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>E-Commerce</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="amazonMarketplaceLogin.php">Amazon Einstellungen</a></li>
-                            
+                            <li><i class="menu-icon fa fa-sign-in" ></i><a  href="#" data-toggle="modal" data-target="#bestätigen">Amazon Einstellungen</a></li>
 
                             <!-- <li><i class="fa fa-fire"></i><a href="amazonMarketplaceLogin.php">Marketplace ID</a></li> -->
                         </ul>
@@ -405,8 +404,9 @@ if(isset($_SESSION["adminusername"])) {
     <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
     <script src="assets/js/lib/data-table/datatables-init.js"></script>
     
-<!-- ========================================== ANMELDEN ================================ -->
-            <div class="modal fade" id="bestätigen" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+    <!-- ========================================== ANMELDEN ========================================= -->
+
+<div class="modal fade" id="bestätigen" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -420,7 +420,7 @@ if(isset($_SESSION["adminusername"])) {
                                 <div class="card">
                                     <div class="card-header">Anmeldedaten</div>
                                     <div class="card-body card-block">
-                                        <form method="post" action="">
+                                        <form method="post" action="../easymanager/assets/logic/mAmazonAccess.php">
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
@@ -445,6 +445,7 @@ if(isset($_SESSION["adminusername"])) {
                     </div>
                 </div>
             </div>
+            <!-- ========================================== ANMELDEN ENDE ========================================= -->
 
     </body>
     </html>

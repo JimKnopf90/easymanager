@@ -2,7 +2,7 @@
 $upload_folder = '../../images/userImages/'; //Das Upload-Verzeichnis
 $filename = pathinfo($_FILES['datei']['name'], PATHINFO_FILENAME);
 $extension = strtolower(pathinfo($_FILES['datei']['name'], PATHINFO_EXTENSION));
- 
+
  
 //Überprüfung der Dateiendung
 $allowed_extensions = array('png', 'jpg', 'jpeg', 'gif');
@@ -24,9 +24,10 @@ if(function_exists('exif_imagetype')) { //Die exif_imagetype-Funktion erfordert 
  die("Nur der Upload von Bilddateien ist gestattet");
  }
 }
- 
+
 //Pfad zum Upload
-$new_path = $upload_folder.$filename.'.'.$extension;
+//$new_path = $upload_folder.$filename.'.'.$extension;
+$new_path = $upload_folder. 'TimmDatei' .'.'.$extension;
  
 //Neuer Dateiname falls die Datei bereits existiert
 if(file_exists($new_path)) { //Falls Datei existiert, hänge eine Zahl an den Dateinamen
@@ -42,3 +43,5 @@ move_uploaded_file($_FILES['datei']['tmp_name'], $new_path);
 echo 'Bild erfolgreich hochgeladen: <a href="'.$new_path.'">'.$new_path.'</a>';
 echo $upload_folder . $filename;
 ?>
+
+Hier

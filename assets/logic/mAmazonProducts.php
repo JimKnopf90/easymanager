@@ -19,7 +19,6 @@ $sql = "SELECT artikelbezeichnung, artikelbeschreibung,	angebotsnummer,	haendler
 	    FROM tAmazonInventory";
 
 
-
 echo '<table id="bootstrap-data-table" class="table table-striped table-bordered">';
     echo '<thead>';
         echo '<tr>';
