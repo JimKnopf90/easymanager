@@ -43,7 +43,7 @@ echo "<div class='row form-group'>";
         echo "</div>";
 
     foreach ($normalInputfields as $inputs => $information){
-		$i = 0;
+        $i = 0;
         if($inputs != "Passwort"){
             echo "<div class='col col-md-3'>";
                 echo "<label for='text-input' class=' form-control-label'> $inputs </label>";
