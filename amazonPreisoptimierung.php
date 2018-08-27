@@ -444,7 +444,7 @@ if(isset($_SESSION["adminusername"])) {
                 </div>
             </div>
             <!-- ========================================== ANMELDEN ENDE ========================================= -->
-
+                    <script type="text/javascript" src="assets/js/amazonpriceoptimizer.js"></script>
 
 </body>
 </html>
